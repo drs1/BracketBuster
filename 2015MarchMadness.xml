@@ -175,14 +175,12 @@
           </home>
           <away name="Buffalo Bulls" alias="BUFF" seed="12" id="a9f5c9a2-342c-4881-9996-5d5c05ec9bd9">
           </away>
-          <broadcast network="TNT" satellite="245"/>
         </game>
         <game id="39f483ec-a230-47de-a97f-b3b093352286" title="Midwest Regional - Second Round - Game 8" status="scheduled" coverage="full" home_team="fae4855b-1b64-4b40-a632-9ed345e1e952" away_team="5016fe1a-9571-4d10-bf5b-b9c1b496bd57" scheduled="2015-03-20T16:15:00+00:00">
           <home name="Kansas Jayhawks" alias="KU" seed="2" id="fae4855b-1b64-4b40-a632-9ed345e1e952">
           </home>
           <away name="New Mexico State Aggies" alias="NMSU" seed="15" id="5016fe1a-9571-4d10-bf5b-b9c1b496bd57">
           </away>
-          <broadcast network="CBS"/>
         </game>
         <game id="963ae6da-f451-41ca-9c4f-89bfec5e42fd" title="Midwest Regional - Second Round - Game 1" status="scheduled" coverage="full" home_team="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1" away_team="161354af-1f3e-4d58-88f7-e016ec74b7b6" scheduled="2015-03-20T01:40:00+00:00">
           <home name="Kentucky Wildcats" alias="UK" seed="1" id="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1">
@@ -190,14 +188,12 @@
           <away name="Hampton Pirates" alias="HAMP" seed="16" id="161354af-1f3e-4d58-88f7-e016ec74b7b6">
             <source id="f21a898c-8f20-4b03-9f43-ab63e50ea69b" title="First Four - First Round - Game 1" status="closed" coverage="full" home_team="7a270923-01d6-4a6f-a93e-e8786266d502" away_team="161354af-1f3e-4d58-88f7-e016ec74b7b6" scheduled="2015-03-17T22:38:00+00:00" outcome="win"/>
           </away>
-          <broadcast network="CBS"/>
         </game>
         <game id="aa38c968-1304-44fa-9f67-d069323bec0c" title="Midwest Regional - Second Round - Game 2" status="scheduled" coverage="full" home_team="a17dfc54-415f-49c3-a2e6-d6fa9db18b0a" away_team="12d7f888-675b-459f-9099-a38f771d8a95" scheduled="2015-03-19T23:10:00+00:00">
           <home name="Cincinnati Bearcats" alias="CIN" seed="8" id="a17dfc54-415f-49c3-a2e6-d6fa9db18b0a">
           </home>
           <away name="Purdue Boilermakers" alias="PUR" seed="9" id="12d7f888-675b-459f-9099-a38f771d8a95">
           </away>
-          <broadcast network="CBS"/>
         </game>
       </bracket>
       <bracket id="f65b5ded-5c18-4896-8ca0-b897553b2785" name="East Regional" location="Syracuse, NY, USA">
@@ -206,21 +202,18 @@
           </home>
           <away name="Wyoming Cowboys" alias="WYO" seed="12" id="a7127c0a-a466-47ae-91ad-9a71ee2c9427">
           </away>
-          <broadcast network="TBS" satellite="247"/>
         </game>
         <game id="ca7f36e4-d681-4d9a-bc44-28a83c171149" title="East Regional - Second Round - Game 1" status="scheduled" coverage="full" home_team="4383eb6a-7fd8-4ff2-94c5-43c933121e88" away_team="6af02334-9ac3-452f-bcf4-20abdb72bd07" scheduled="2015-03-19T22:50:00+00:00">
           <home name="Villanova Wildcats" alias="VILL" seed="1" id="4383eb6a-7fd8-4ff2-94c5-43c933121e88">
           </home>
           <away name="Lafayette Leopards" alias="LAF" seed="16" id="6af02334-9ac3-452f-bcf4-20abdb72bd07">
           </away>
-          <broadcast network="TBS" satellite="247"/>
         </game>
         <game id="8b066711-2efd-43f9-b7d2-aa11f1852af3" title="East Regional - Second Round - Game 2" status="scheduled" coverage="full" home_team="52df1e19-b142-4a76-a439-ad68455d0581" away_team="70e2bedd-3a0a-479c-ac99-e3f58aa6824b" scheduled="2015-03-20T01:20:00+00:00">
           <home name="North Carolina State Wolfpack" alias="NCST" seed="8" id="52df1e19-b142-4a76-a439-ad68455d0581">
           </home>
           <away name="LSU Tigers" alias="LSU" seed="9" id="70e2bedd-3a0a-479c-ac99-e3f58aa6824b">
           </away>
-          <broadcast network="TBS" satellite="247"/>
         </game>
         <game id="eaef692d-08f0-40a6-b86f-9e92469f86cb" title="East Regional - Second Round - Game 8" status="scheduled" coverage="full" home_team="56913910-87f7-4ad7-ae3b-5cd9fb218fd9" away_team="a0a22502-0d84-440c-84af-1fbb070ad54c" scheduled="2015-03-20T19:10:00+00:00">
           <home name="Virginia Cavaliers" alias="UVA" seed="2" id="56913910-87f7-4ad7-ae3b-5cd9fb218fd9">

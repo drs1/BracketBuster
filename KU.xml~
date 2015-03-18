@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generation started @ 2015-03-15 00:55:32 +0000 -->
-<season id="d23f0f9c-8ba3-42d9-a181-60c27295b454" year="2014" type="REG">
+<season xmlns="http://feed.elasticstats.com/schema/basketball/statistics-v2.0.xsd" id="d23f0f9c-8ba3-42d9-a181-60c27295b454" year="2014" type="REG">
   <team id="fae4855b-1b64-4b40-a632-9ed345e1e952" name="Jayhawks" market="Kansas">
     <team_records>
       <overall>
