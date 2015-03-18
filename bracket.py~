@@ -1,0 +1,23 @@
+import xml.etree.ElementTree as ET
+
+class Bracket:
+
+    def __init__(self,bracket):
+        self.bracket = bracket
+        self.getTeams()
+
+    def getTeams(self):
+        teams = [16]
+        
+        for game in self.bracket:
+            home = game[0].get('alias')
+            print int(game[0].get('seed'))
+            if game[1].get('seed') is not None:
+                print int(game[1].get('seed'))
+            else: 
+                print 16
+
+
+
+             
+

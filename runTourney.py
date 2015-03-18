@@ -1,36 +1,21 @@
 import xml.etree.ElementTree as ET
+from regional import Regional
 import time
 
+
+stats = ['second_chance_pts', 'points_off_turnovers','paint_pts', 'fast_break_pts', 'points', 'blocked_att', 'turnovers' ,'free_throws_att', 'field_goals_att', 'off_rebounds', 'two_points_att', 'assists', 'blocks', 'personal_fouls', 'two_points_made', 'flagrant_fouls', 'rebounds', 'three_points_made', 'minutes', 'def_rebounds', 'free_throws_made', 'field_goals_made', 'steals', 'three_points_att']
 
 def pickTourneyOn(stat):
     marchMadness = ET.parse('2015MarchMadness.xml')
     #we are in round 2
     round2 = marchMadness.getroot()[0][1]
-    for bracket in round2:
-        time.sleep(2.0)
-        for game in bracket:
-            home = game[0].get('alias')
-            away = game[1].get('alias')
-            print home,away
-
-
-def pick(home, away, ordering):
-    #lookup their xml file
-    home_stat = getStat(home,ordering)
-    away_stat = getStat(away,ordering)
-    return away if away_stat>home_stat else home  #break the ties to home team/higher seed
-
-def getStat(team, stat):
-    #find the teams stat we're concerned with
-    try:
-        file = open('%s.xml'%team)
-    except IOError:
-        return 0
-    tree = ET.parse(file)
-    root = tree.getroot()[0][0][0][1]
-    return root.get('%s'%stat)
-
-pickTourneyOn('second_chance_pts')
-    
+    for r in round2:
+        regional = Regional(r)
+        print regional.simRegional(stat)
+        
+for s in stats:
+    print s 
+    pickTourneyOn(s)
+    print '\n'
 
 

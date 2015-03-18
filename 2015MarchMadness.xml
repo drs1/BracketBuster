@@ -147,7 +147,6 @@
           </home>
           <away name="Texas Longhorns" alias="TEX" seed="11" id="6ed15092-2670-450a-99c2-61d861e87644">
           </away>
-          <broadcast network="CBS"/>
         </game>
         <game id="7ab75f00-cff0-443c-a0e3-9654b673abae" title="Midwest Regional - Second Round - Game 4" status="scheduled" coverage="full" home_team="2778d005-cc14-4e58-9bf2-3fc37bffb62f" away_team="df3da9d7-2d2b-44e2-99e2-08c4945a203b" scheduled="2015-03-20T20:40:00+00:00">
           <home name="Maryland Terrapins" alias="MD" seed="4" id="2778d005-cc14-4e58-9bf2-3fc37bffb62f">
