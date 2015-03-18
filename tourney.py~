@@ -1,0 +1,53 @@
+import requests
+from bs4 import BeautifulSoup
+from pprint import pprint
+import xml.etree.ElementTree as ET
+
+
+#get all the teams by bracket
+# make matchups
+# get the list
+# start at the middle
+# favorite is located at n/2-1
+# underdog is located at n/2+1
+
+#api call
+
+
+
+
+schedule_url = "http://api.sportsdatallc.org/ncaamb-{access}{version}/tournaments/{season}/{level}/schedule.xml?api_key={key}".format(access = 't',
+                                                                                                                                   version = '3',
+                                                                                                                                   season =  "2014",
+                                                                                                                                   level = "pst",
+                                                                                                                                   key = 'h7xctejux9gwa7tdjf99bfge')
+grab_tourney = 'http://api.sportsdatallc.org/ncaamb-{access}{version}/tournaments/{tournament_id}/schedule.xml?api_key={key}'.format(access = 't',
+                                                                                                                                   version = '3',
+                                                                                                                                   tournament_id = '83c03d12-e03b-4f71-846c-5d42ba90eeb1',
+                                                                                                                                   key = 'h7xctejux9gwa7tdjf99bfge')
+
+
+
+
+
+
+#tourney_id = '541807c8-9a76-4999-a2ad-c0ba8a553c3d'
+#url = 'http://api.sportsdatallc.org/ncaamb-t3/tournaments/541807c8-9a76-4999-a2ad-c0ba8a553c3d/schedule.xml?api_key=h7xctejux9gwa7tdjf99bfge'
+send = requests.get(grab_tourney)
+file = open('2015MarchMadness.xml','wr+')
+file.write(send.content)
+file.close()
+
+#tree = ET.parse('export.xml')
+#root = tree.getroot()[0]
+#round2 = None
+#for round in root:
+ #   if round.get('name') == 'Second Round':
+  #      round2 = round
+
+#for bracket in round2:
+#    for game in bracket:
+ #       for team in game:
+  #          if team.get('alias') is not None:
+   #             print team.get('alias')
+    #            print team.tag

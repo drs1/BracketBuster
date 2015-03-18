@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generation started @ 2015-03-13 19:10:51 +0000 -->
+<league xmlns="http://feed.elasticstats.com/schema/basketball/schedule-v2.0.xsd" id="cd4268ee-07aa-4c4d-a435-ec44ad2c76cb" name="NCAA MEN" alias="NCAAM">
+  <tournament-schedule id="541807c8-9a76-4999-a2ad-c0ba8a553c3d" name="NCAA Men's Division I Basketball Tournament" location="Arlington, TX, USA" status="closed">
+    <round id="0f813109-4ef0-4202-99c2-28133ffc7be1" sequence="6" name="Final Four">
+      <game id="6192a57a-d35e-4886-a62b-7110bfd3fcd7" title="Final Four - Semifinals - Game 2" status="closed" coverage="full" home_team="c7569eae-5b93-4197-b204-6f3a62146b25" away_team="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1" scheduled="2014-04-06T01:12:00+00:00">
+        <venue id="b87201ba-f5b7-42f0-bb60-947ff4eae5e2" name="AT&amp;T Stadium" capacity="80000" address="1 Legends Way" city="Arlington" state="TX" zip="76011" country="USA"/>
+        <home name="Wisconsin Badgers" alias="WIS" seed="2" id="c7569eae-5b93-4197-b204-6f3a62146b25">
+          <source id="0e038bb9-cf2a-4920-8a14-7b4e7a61b736" title="West Regional - Elite 8 - Game 1" status="closed" coverage="full" home_team="9b166a3f-e64b-4825-bb6b-92c6f0418263" away_team="c7569eae-5b93-4197-b204-6f3a62146b25" scheduled="2014-03-30T00:49:00+00:00" outcome="win"/>
+        </home>
+        <away name="Kentucky Wildcats" alias="UK" seed="8" id="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1">
+          <source id="502d39b0-0f84-49b1-acb9-2f5f8fcbe678" title="Midwest Regional - Elite 8 - Game 1" status="closed" coverage="full" home_team="bdc2561d-f603-4fab-a262-f1d2af462277" away_team="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1" scheduled="2014-03-30T21:05:00+00:00" outcome="win"/>
+        </away>
+        <broadcast network="TBS" satellite="247"/>
+      </game>
+      <game id="b4a036b3-4b82-4d0e-9cc4-2322e1165011" title="Final Four - Semifinals - Game 1" status="closed" coverage="full" home_team="912f8837-1d81-4ef9-a576-a21f271d4c64" away_team="efba5350-79bc-47aa-a189-db177b95b491" scheduled="2014-04-05T22:09:00+00:00">
+        <venue id="b87201ba-f5b7-42f0-bb60-947ff4eae5e2" name="AT&amp;T Stadium" capacity="80000" address="1 Legends Way" city="Arlington" state="TX" zip="76011" country="USA"/>
+        <home name="Florida Gators" alias="FLA" seed="1" id="912f8837-1d81-4ef9-a576-a21f271d4c64">
+          <source id="c8b735e6-3312-4490-9d7d-1060962cd345" title="South Regional - Elite 8 - Game 1" status="closed" coverage="full" home_team="912f8837-1d81-4ef9-a576-a21f271d4c64" away_team="632616c5-2dbb-4017-a449-c9dfc303f026" scheduled="2014-03-29T22:09:00+00:00" outcome="win"/>
+        </home>
+        <away name="Connecticut Huskies" alias="CONN" seed="7" id="efba5350-79bc-47aa-a189-db177b95b491">
+          <source id="ae6b77c8-c1d5-4024-bd51-9f5a27f1a69d" title="East Regional - Elite 8 - Game 1" status="closed" coverage="full" home_team="a41d5a05-4c11-4171-a57e-e7a1ea325a6d" away_team="efba5350-79bc-47aa-a189-db177b95b491" scheduled="2014-03-30T18:20:00+00:00" outcome="win"/>
+        </away>
+        <broadcast network="TBS" satellite="247"/>
+      </game>
+    </round>
+    <round id="5a5f4fef-9f44-4595-88b3-5045273a0292" sequence="5" name="Elite 8">
+      <bracket id="30a25345-228b-4b43-8dae-0f6a8391e0bd" name="Midwest Regional" location="Indianapolis, IN, USA">
+        <game id="502d39b0-0f84-49b1-acb9-2f5f8fcbe678" title="Midwest Regional - Elite 8 - Game 1" status="closed" coverage="full" home_team="bdc2561d-f603-4fab-a262-f1d2af462277" away_team="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1" scheduled="2014-03-30T21:05:00+00:00">
+          <venue id="12155ac5-1553-48d6-969d-dafc574d0406" name="Lucas Oil Stadium" capacity="70000" address="500 South Capitol Avenue" city="Indianapolis" state="IN" zip="46225" country="USA"/>
+          <home name="Michigan Wolverines" alias="MICH" seed="2" id="bdc2561d-f603-4fab-a262-f1d2af462277">
+            <source id="01c2e48b-17b4-4ffb-b002-6b31d86e048b" title="Midwest Regional - Sweet 16 - Game 2" status="closed" coverage="full" home_team="bdc2561d-f603-4fab-a262-f1d2af462277" away_team="b827dbdf-230f-4916-9703-3bb9004e26eb" scheduled="2014-03-28T23:15:00+00:00" outcome="win"/>
+          </home>
+          <away name="Kentucky Wildcats" alias="UK" seed="8" id="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1">
+            <source id="b1ed2669-4460-456a-8974-7130bd9307fd" title="Midwest Regional - Sweet 16 - Game 1" status="closed" coverage="full" home_team="b795ddbc-baab-4499-8803-52e8608520ab" away_team="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1" scheduled="2014-03-29T02:00:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+      </bracket>
+      <bracket id="bb605ff2-20bb-49ed-9436-7383c7a2363e" name="South Regional" location="Memphis, TN, USA">
+        <game id="c8b735e6-3312-4490-9d7d-1060962cd345" title="South Regional - Elite 8 - Game 1" status="closed" coverage="full" home_team="912f8837-1d81-4ef9-a576-a21f271d4c64" away_team="632616c5-2dbb-4017-a449-c9dfc303f026" scheduled="2014-03-29T22:09:00+00:00">
+          <venue id="7657c204-a20b-527a-99cb-dc29218462aa" name="FedEx Forum" capacity="18119" address="191 Beale St" city="Memphis" state="TN" zip="38103" country="USA"/>
+          <home name="Florida Gators" alias="FLA" seed="1" id="912f8837-1d81-4ef9-a576-a21f271d4c64">
+            <source id="59a3400c-0f05-41c2-8dfc-2c2789da93aa" title="South Regional - Sweet 16 - Game 1" status="closed" coverage="full" home_team="912f8837-1d81-4ef9-a576-a21f271d4c64" away_team="ec0d6b67-4b16-4b50-92b2-1a651dae6b0f" scheduled="2014-03-28T02:15:00+00:00" outcome="win"/>
+          </home>
+          <away name="Dayton Flyers" alias="DAY" seed="11" id="632616c5-2dbb-4017-a449-c9dfc303f026">
+            <source id="da30585d-9de0-4f7e-9b28-c034bf2ad0f2" title="South Regional - Sweet 16 - Game 2" status="closed" coverage="full" home_team="683ab61f-546f-44da-b085-c3a5740554aa" away_team="632616c5-2dbb-4017-a449-c9dfc303f026" scheduled="2014-03-27T23:15:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+      </bracket>
+      <bracket id="90150cbb-62d8-44f2-9b36-6f2f672afdbe" name="East Regional" location="New York City, NY, USA">
+        <game id="ae6b77c8-c1d5-4024-bd51-9f5a27f1a69d" title="East Regional - Elite 8 - Game 1" status="closed" coverage="full" home_team="a41d5a05-4c11-4171-a57e-e7a1ea325a6d" away_team="efba5350-79bc-47aa-a189-db177b95b491" scheduled="2014-03-30T18:20:00+00:00">
+          <venue id="583152aa-de75-5bea-ac92-ac5b8a51f9f9" name="Madison Square Garden" capacity="19812" address="Four Pennsylvania Plaza" city="New York" state="NY" zip="10001" country="USA"/>
+          <home name="Michigan State Spartans" alias="MSU" seed="4" id="a41d5a05-4c11-4171-a57e-e7a1ea325a6d">
+            <source id="336799b5-1f43-45ff-a681-79240f53f7c4" title="East Regional - Sweet 16 - Game 1" status="closed" coverage="full" home_team="56913910-87f7-4ad7-ae3b-5cd9fb218fd9" away_team="a41d5a05-4c11-4171-a57e-e7a1ea325a6d" scheduled="2014-03-29T02:15:00+00:00" outcome="win"/>
+          </home>
+          <away name="Connecticut Huskies" alias="CONN" seed="7" id="efba5350-79bc-47aa-a189-db177b95b491">
+            <source id="a7c748e6-82b2-477e-b0b1-6f26b7bbeae6" title="East Regional - Sweet 16 - Game 2" status="closed" coverage="full" home_team="0e4258fa-3154-4c16-b693-adecab184c6c" away_team="efba5350-79bc-47aa-a189-db177b95b491" scheduled="2014-03-28T23:27:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+      </bracket>
+      <bracket id="8095fbe3-0842-4ff4-a3af-cf8773fd7535" name="West Regional" location="Anaheim, CA, USA">
+        <game id="0e038bb9-cf2a-4920-8a14-7b4e7a61b736" title="West Regional - Elite 8 - Game 1" status="closed" coverage="full" home_team="9b166a3f-e64b-4825-bb6b-92c6f0418263" away_team="c7569eae-5b93-4197-b204-6f3a62146b25" scheduled="2014-03-30T00:49:00+00:00">
+          <venue id="a3cc94cd-6c71-4fa6-9a55-64f69c71b329" name="Honda Center" capacity="18336" address="2695 East Katella Avenue" city="Anaheim" state="CA" zip="92806" country="USA"/>
+          <home name="Arizona Wildcats" alias="ARIZ" seed="1" id="9b166a3f-e64b-4825-bb6b-92c6f0418263">
+            <source id="f2f41de5-322c-4360-aca2-7290de90832f" title="West Regional - Sweet 16 - Game 1" status="closed" coverage="full" home_team="9b166a3f-e64b-4825-bb6b-92c6f0418263" away_team="e6914f16-ca37-4d2e-ba26-a425910283e2" scheduled="2014-03-28T02:25:00+00:00" outcome="win"/>
+          </home>
+          <away name="Wisconsin Badgers" alias="WIS" seed="2" id="c7569eae-5b93-4197-b204-6f3a62146b25">
+            <source id="cd36ad64-f3ec-4cf9-84f5-d338d14524e1" title="West Regional - Sweet 16 - Game 2" status="closed" coverage="full" home_team="c7569eae-5b93-4197-b204-6f3a62146b25" away_team="db6e1cab-3fa3-4a93-a673-8b2a358ff4bf" scheduled="2014-03-27T23:47:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+      </bracket>
+    </round>
+    <round id="778a8b8c-21a0-4f54-b2ed-39d6d47097e1" sequence="1" name="First Four">
+      <bracket id="30a25345-228b-4b43-8dae-0f6a8391e0bd" name="Midwest Regional" location="Indianapolis, IN, USA">
+        <game id="51d7ce42-bfc7-41cc-b995-48fdb8fbbc35" title="First Four - First Round - Game 4" status="closed" coverage="full" home_team="b827dbdf-230f-4916-9703-3bb9004e26eb" away_team="c10544de-e3bd-4776-ba2e-83df8c017fd1" scheduled="2014-03-20T01:10:00+00:00">
+          <venue id="e43e6693-1879-433e-8287-0929d4b9b375" name="University of Dayton Arena" capacity="13409" address="1801 South Edwin C Moses Boulevard" city="Dayton" state="OH" zip="45417" country="USA"/>
+          <home name="Tennessee Volunteers" alias="TENN" seed="11" id="b827dbdf-230f-4916-9703-3bb9004e26eb">
+          </home>
+          <away name="Iowa Hawkeyes" alias="IOWA" seed="11" id="c10544de-e3bd-4776-ba2e-83df8c017fd1">
+          </away>
+          <broadcast network="truTV" satellite="246"/>
+        </game>
+        <game id="a23144e9-38ca-4493-8aa5-b38bb3187122" title="First Four - First Round - Game 3" status="closed" coverage="full" home_team="eb157f98-0697-459c-9293-ddb162ceb28b" away_team="45439cdb-af7a-4743-936c-dccc76b30877" scheduled="2014-03-19T22:40:00+00:00">
+          <venue id="e43e6693-1879-433e-8287-0929d4b9b375" name="University of Dayton Arena" capacity="13409" address="1801 South Edwin C Moses Boulevard" city="Dayton" state="OH" zip="45417" country="USA"/>
+          <home name="Texas Southern Tigers" alias="TXSO" seed="16" id="eb157f98-0697-459c-9293-ddb162ceb28b">
+          </home>
+          <away name="Cal Poly Mustangs" alias="CP" seed="16" id="45439cdb-af7a-4743-936c-dccc76b30877">
+          </away>
+          <broadcast network="truTV" satellite="246"/>
+        </game>
+        <game id="1a468fb6-8545-4e8d-87d8-ef0f7d494365" title="First Four - First Round - Game 2" status="closed" coverage="full" home_team="0d8a328f-20ce-410b-bed1-15fc01308aaf" away_team="52df1e19-b142-4a76-a439-ad68455d0581" scheduled="2014-03-19T01:12:00+00:00">
+          <venue id="e43e6693-1879-433e-8287-0929d4b9b375" name="University of Dayton Arena" capacity="13409" address="1801 South Edwin C Moses Boulevard" city="Dayton" state="OH" zip="45417" country="USA"/>
+          <home name="Xavier Musketeers" alias="XAV" seed="12" id="0d8a328f-20ce-410b-bed1-15fc01308aaf">
+          </home>
+          <away name="North Carolina State Wolfpack" alias="NCST" seed="12" id="52df1e19-b142-4a76-a439-ad68455d0581">
+          </away>
+          <broadcast network="truTV" satellite="246"/>
+        </game>
+      </bracket>
+      <bracket id="bb605ff2-20bb-49ed-9436-7383c7a2363e" name="South Regional" location="Memphis, TN, USA">
+        <game id="065a95cc-337f-46c7-92d2-6fd521ac31b7" title="First Four - First Round - Game 1" status="closed" coverage="full" home_team="5fe4a398-1699-4442-a364-305b2f0ac01e" away_team="290a5130-836d-45e6-824f-28704d6ba246" scheduled="2014-03-18T22:40:00+00:00">
+          <venue id="e43e6693-1879-433e-8287-0929d4b9b375" name="University of Dayton Arena" capacity="13409" address="1801 South Edwin C Moses Boulevard" city="Dayton" state="OH" zip="45417" country="USA"/>
+          <home name="Mount St. Mary's Mountaineers" alias="MSM" seed="16" id="5fe4a398-1699-4442-a364-305b2f0ac01e">
+          </home>
+          <away name="Albany Great Danes" alias="ALBY" seed="16" id="290a5130-836d-45e6-824f-28704d6ba246">
+          </away>
+          <broadcast network="truTV" satellite="246"/>
+        </game>
+      </bracket>
+    </round>
+    <round id="7e198600-2903-4555-ab8e-bf6a646b04be" sequence="3" name="Third Round">
+      <bracket id="8095fbe3-0842-4ff4-a3af-cf8773fd7535" name="West Regional" location="Anaheim, CA, USA">
+        <game id="b7b0b3ec-dd7e-4a81-a842-346e937355d3" title="West Regional - Third Round - Game 3" status="closed" coverage="full" home_team="7d797407-623e-476d-b299-46de4275414d" away_team="db6e1cab-3fa3-4a93-a673-8b2a358ff4bf" scheduled="2014-03-23T23:40:00+00:00">
+          <venue id="8a7580c0-4052-54d5-85cd-85aab6200acf" name="AT&amp;T Center" capacity="18581" address="One AT&amp;T Center Parkway" city="San Antonio" state="TX" zip="78219" country="USA"/>
+          <home name="Creighton Bluejays" alias="CREI" seed="3" id="7d797407-623e-476d-b299-46de4275414d">
+            <source id="c9e612f3-6755-4961-a092-67a3e5069b33" title="West Regional - Second Round - Game 6" status="closed" coverage="full" home_team="7d797407-623e-476d-b299-46de4275414d" away_team="63cad858-8654-4956-8438-8fe79cd1208a" scheduled="2014-03-21T19:30:00+00:00" outcome="win"/>
+          </home>
+          <away name="Baylor Bears" alias="BAY" seed="6" id="db6e1cab-3fa3-4a93-a673-8b2a358ff4bf">
+            <source id="17c101d9-1da9-4c65-8599-9cf758429088" title="West Regional - Second Round - Game 5" status="closed" coverage="full" home_team="db6e1cab-3fa3-4a93-a673-8b2a358ff4bf" away_team="f8b1bf00-5b73-4ac4-98c0-ec554027ae32" scheduled="2014-03-21T16:40:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="truTV" satellite="246"/>
+        </game>
+        <game id="48c261a0-44c8-4bb2-8ff7-bbfce8433a1b" title="West Regional - Third Round - Game 1" status="closed" coverage="full" home_team="9b166a3f-e64b-4825-bb6b-92c6f0418263" away_team="2f4d21f8-6d5f-48a5-abca-52a30583871a" scheduled="2014-03-24T01:53:00+00:00">
+          <venue id="79da0063-8ef0-4c77-ac98-26e724b0c2f9" name="Viejas Arena" capacity="12414" address="5500 Canyon Crest Drive" city="San Diego" state="CA" zip="92115" country="USA"/>
+          <home name="Arizona Wildcats" alias="ARIZ" seed="1" id="9b166a3f-e64b-4825-bb6b-92c6f0418263">
+            <source id="4a65e041-6e84-4b11-b3a7-8acedb011f73" title="West Regional - Second Round - Game 1" status="closed" coverage="full" home_team="9b166a3f-e64b-4825-bb6b-92c6f0418263" away_team="4743cb7c-784a-4b95-a380-5471f92f2217" scheduled="2014-03-21T18:10:00+00:00" outcome="win"/>
+          </home>
+          <away name="Gonzaga Bulldogs" alias="GONZ" seed="8" id="2f4d21f8-6d5f-48a5-abca-52a30583871a">
+            <source id="668626a5-76c4-4194-a1f4-65e85a157e33" title="West Regional - Second Round - Game 2" status="closed" coverage="full" home_team="2f4d21f8-6d5f-48a5-abca-52a30583871a" away_team="8ab00d43-840a-4c96-bdee-bf88fa6e3f11" scheduled="2014-03-21T20:56:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+        <game id="bad6158f-8954-4cc5-bd5d-9d06c7fffd71" title="West Regional - Third Round - Game 4" status="closed" coverage="full" home_team="c7569eae-5b93-4197-b204-6f3a62146b25" away_team="1da70895-f77f-44ef-b216-d63c02e696eb" scheduled="2014-03-22T23:45:00+00:00">
+          <venue id="9bb9599c-17dd-4253-82bb-96fae950a32f" name="BMO Harris Bradley Center" capacity="19000" address="1001 N Fourth St" city="Milwaukee" state="WI" zip="53203" country="USA"/>
+          <home name="Wisconsin Badgers" alias="WIS" seed="2" id="c7569eae-5b93-4197-b204-6f3a62146b25">
+            <source id="0937bfda-b725-4b6c-9ddc-6f4743e9c1eb" title="West Regional - Second Round - Game 8" status="closed" coverage="full" home_team="c7569eae-5b93-4197-b204-6f3a62146b25" away_team="2f513e67-f019-4eec-9096-fbc5911858b6" scheduled="2014-03-20T16:40:00+00:00" outcome="win"/>
+          </home>
+          <away name="Oregon Ducks" alias="ORE" seed="7" id="1da70895-f77f-44ef-b216-d63c02e696eb">
+            <source id="a6c989d3-016e-4c90-bd57-7fbea4dce7c9" title="West Regional - Second Round - Game 7" status="closed" coverage="full" home_team="1da70895-f77f-44ef-b216-d63c02e696eb" away_team="c31455b2-8a45-4248-aa8f-ce7eab1c6b02" scheduled="2014-03-20T19:11:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+        <game id="579a9965-9a7d-4bf8-8782-bdf4d57021bd" title="West Regional - Third Round - Game 2" status="closed" coverage="full" home_team="e6914f16-ca37-4d2e-ba26-a425910283e2" away_team="984e7518-e418-45d5-9797-979b8c2085c1" scheduled="2014-03-22T22:10:00+00:00">
+          <venue id="b665b238-e25c-4726-87ab-58f8c694376b" name="Spokane Veterans Memorial Arena" capacity="12210" address="720 W. Mallon Avenue" city="Spokane" state="WA" zip="99201" country="USA"/>
+          <home name="San Diego State Aztecs" alias="SDSU" seed="4" id="e6914f16-ca37-4d2e-ba26-a425910283e2">
+            <source id="5ec2d294-49ea-4ef9-9afb-b3555fad7c26" title="West Regional - Second Round - Game 4" status="closed" coverage="full" home_team="e6914f16-ca37-4d2e-ba26-a425910283e2" away_team="5016fe1a-9571-4d10-bf5b-b9c1b496bd57" scheduled="2014-03-21T03:03:00+00:00" outcome="win"/>
+          </home>
+          <away name="North Dakota State Bison" alias="NDSU" seed="12" id="984e7518-e418-45d5-9797-979b8c2085c1">
+            <source id="763c1b51-d759-4167-825c-168ea4a51b5f" title="West Regional - Second Round - Game 3" status="closed" coverage="full" home_team="b2fda957-e15c-4fb2-8a13-6e58496f561e" away_team="984e7518-e418-45d5-9797-979b8c2085c1" scheduled="2014-03-20T23:55:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="TNT" satellite="245"/>
+        </game>
+      </bracket>
+      <bracket id="30a25345-228b-4b43-8dae-0f6a8391e0bd" name="Midwest Regional" location="Indianapolis, IN, USA">
+        <game id="93d21134-086c-496b-a9d1-a5798f4dafe7" title="Midwest Regional - Third Round - Game 2" status="closed" coverage="full" home_team="b795ddbc-baab-4499-8803-52e8608520ab" away_team="1e42cce3-236b-4f3e-9650-2c45e6332e1e" scheduled="2014-03-22T18:50:00+00:00">
+          <venue id="aecd8da6-0404-599c-a792-4b33fb084a2a" name="Amway Center" capacity="18846" address="400 W. Church St." city="Orlando" state="FL" zip="32801" country="USA"/>
+          <home name="Louisville Cardinals" alias="LOU" seed="4" id="b795ddbc-baab-4499-8803-52e8608520ab">
+            <source id="f8dc27ba-1cb8-40e2-aa2c-875530bdb8b3" title="Midwest Regional - Second Round - Game 4" status="closed" coverage="full" home_team="b795ddbc-baab-4499-8803-52e8608520ab" away_team="7a270923-01d6-4a6f-a93e-e8786266d502" scheduled="2014-03-21T02:32:00+00:00" outcome="win"/>
+          </home>
+          <away name="Saint Louis Billikens" alias="SLU" seed="5" id="1e42cce3-236b-4f3e-9650-2c45e6332e1e">
+            <source id="37902a80-a982-4df7-b5a4-89b54ca662b2" title="Midwest Regional - Second Round - Game 3" status="closed" coverage="full" home_team="1e42cce3-236b-4f3e-9650-2c45e6332e1e" away_team="52df1e19-b142-4a76-a439-ad68455d0581" scheduled="2014-03-20T23:20:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+        <game id="ab646dcf-4b41-42c4-9248-2eaefd733bca" title="Midwest Regional - Third Round - Game 4" status="closed" coverage="full" home_team="bdc2561d-f603-4fab-a262-f1d2af462277" away_team="6ed15092-2670-450a-99c2-61d861e87644" scheduled="2014-03-22T21:20:00+00:00">
+          <venue id="9bb9599c-17dd-4253-82bb-96fae950a32f" name="BMO Harris Bradley Center" capacity="19000" address="1001 N Fourth St" city="Milwaukee" state="WI" zip="53203" country="USA"/>
+          <home name="Michigan Wolverines" alias="MICH" seed="2" id="bdc2561d-f603-4fab-a262-f1d2af462277">
+            <source id="973aa9a2-f42e-473f-8074-91e295bb94f4" title="Midwest Regional - Second Round - Game 8" status="closed" coverage="full" home_team="bdc2561d-f603-4fab-a262-f1d2af462277" away_team="9916713f-b243-452b-93ae-a2c3ccabf68b" scheduled="2014-03-20T23:10:00+00:00" outcome="win"/>
+          </home>
+          <away name="Texas Longhorns" alias="TEX" seed="7" id="6ed15092-2670-450a-99c2-61d861e87644">
+            <source id="9dd937a4-2b43-47d0-991d-a0dbd7ac1cfc" title="Midwest Regional - Second Round - Game 7" status="closed" coverage="full" home_team="6ed15092-2670-450a-99c2-61d861e87644" away_team="ad4bc983-8d2e-4e6f-a8f9-80840a786c64" scheduled="2014-03-21T01:38:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+        <game id="657319bb-c25a-4099-aba5-dc722e81608b" title="Midwest Regional - Third Round - Game 1" status="closed" coverage="full" home_team="f38b58de-3273-4723-a78b-2f918e9aa2d5" away_team="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1" scheduled="2014-03-23T19:07:00+00:00">
+          <venue id="89df2d95-489d-4a15-b2b5-91041fea8c91" name="Scottrade Center" capacity="21000" address="1401 Clark Ave" city="St. Louis" state="MO" zip="63103" country="USA"/>
+          <home name="Wichita State Shockers" alias="WICH" seed="1" id="f38b58de-3273-4723-a78b-2f918e9aa2d5">
+            <source id="21aab96c-4dc5-4f26-8dd4-8c23d5d3e1ca" title="Midwest Regional - Second Round - Game 1" status="closed" coverage="full" home_team="f38b58de-3273-4723-a78b-2f918e9aa2d5" away_team="45439cdb-af7a-4743-936c-dccc76b30877" scheduled="2014-03-21T23:25:00+00:00" outcome="win"/>
+          </home>
+          <away name="Kentucky Wildcats" alias="UK" seed="8" id="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1">
+            <source id="32a8c6b0-df2d-4869-9625-e192b91ad82d" title="Midwest Regional - Second Round - Game 2" status="closed" coverage="full" home_team="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1" away_team="d203f38a-a166-4258-bca2-e161b591ecfb" scheduled="2014-03-22T02:05:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+        <game id="94486457-849f-46be-a8f0-742577961a4f" title="Midwest Regional - Third Round - Game 3" status="closed" coverage="full" home_team="b827dbdf-230f-4916-9703-3bb9004e26eb" away_team="a14b0057-8eb5-43d2-a33b-666196da933e" scheduled="2014-03-23T22:10:00+00:00">
+          <venue id="5f1a51e1-bdd9-43a2-8743-c37f20265346" name="PNC Arena" capacity="19722" address="1400 Edward Mill Rd" city="Raleigh" state="NC" zip="27607" country="USA"/>
+          <home name="Tennessee Volunteers" alias="TENN" seed="11" id="b827dbdf-230f-4916-9703-3bb9004e26eb">
+            <source id="6676d427-0ba6-4215-bf8e-381e08748614" title="Midwest Regional - Second Round - Game 5" status="closed" coverage="full" home_team="88104678-e53b-43b3-82f7-efb3a11cedb9" away_team="b827dbdf-230f-4916-9703-3bb9004e26eb" scheduled="2014-03-21T19:01:00+00:00" outcome="win"/>
+          </home>
+          <away name="Mercer Bears" alias="MER" seed="14" id="a14b0057-8eb5-43d2-a33b-666196da933e">
+            <source id="81697a02-d53b-40da-b633-cf03dbfe0dbb" title="Midwest Regional - Second Round - Game 6" status="closed" coverage="full" home_team="faeb1160-5d15-4f26-99fc-c441cf21fc7f" away_team="a14b0057-8eb5-43d2-a33b-666196da933e" scheduled="2014-03-21T16:15:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="TNT" satellite="245"/>
+        </game>
+      </bracket>
+      <bracket id="90150cbb-62d8-44f2-9b36-6f2f672afdbe" name="East Regional" location="New York City, NY, USA">
+        <game id="923fef33-3dea-4591-9e98-9e0b8ddd01f8" title="East Regional - Third Round - Game 2" status="closed" coverage="full" home_team="a41d5a05-4c11-4171-a57e-e7a1ea325a6d" away_team="5c7bf63f-bc39-43c5-9907-73b50b7a6b34" scheduled="2014-03-23T00:48:00+00:00">
+          <venue id="b665b238-e25c-4726-87ab-58f8c694376b" name="Spokane Veterans Memorial Arena" capacity="12210" address="720 W. Mallon Avenue" city="Spokane" state="WA" zip="99201" country="USA"/>
+          <home name="Michigan State Spartans" alias="MSU" seed="4" id="a41d5a05-4c11-4171-a57e-e7a1ea325a6d">
+            <source id="ffe6cca2-e218-4334-a021-fdb344600a25" title="East Regional - Second Round - Game 4" status="closed" coverage="full" home_team="a41d5a05-4c11-4171-a57e-e7a1ea325a6d" away_team="0affc15f-641d-4211-970d-fb9fb8d36842" scheduled="2014-03-20T21:02:00+00:00" outcome="win"/>
+          </home>
+          <away name="Harvard Crimson" alias="HARV" seed="12" id="5c7bf63f-bc39-43c5-9907-73b50b7a6b34">
+            <source id="1726d0a3-abf1-4aa0-9382-e77c06097bd9" title="East Regional - Second Round - Game 3" status="closed" coverage="full" home_team="a17dfc54-415f-49c3-a2e6-d6fa9db18b0a" away_team="5c7bf63f-bc39-43c5-9907-73b50b7a6b34" scheduled="2014-03-20T18:10:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="TNT" satellite="245"/>
+        </game>
+        <game id="751a0200-0b11-4365-9edd-106819f9b198" title="East Regional - Third Round - Game 1" status="closed" coverage="full" home_team="56913910-87f7-4ad7-ae3b-5cd9fb218fd9" away_team="1551b3a0-6d10-4ffa-8dfa-73b56f004553" scheduled="2014-03-24T00:57:00+00:00">
+          <venue id="5f1a51e1-bdd9-43a2-8743-c37f20265346" name="PNC Arena" capacity="19722" address="1400 Edward Mill Rd" city="Raleigh" state="NC" zip="27607" country="USA"/>
+          <home name="Virginia Cavaliers" alias="UVA" seed="1" id="56913910-87f7-4ad7-ae3b-5cd9fb218fd9">
+            <source id="15c85d32-8839-4fbb-a499-2b1b3ec427ba" title="East Regional - Second Round - Game 1" status="closed" coverage="full" home_team="56913910-87f7-4ad7-ae3b-5cd9fb218fd9" away_team="4af63ebd-d3c8-4772-bbde-938a078bd057" scheduled="2014-03-22T01:50:00+00:00" outcome="win"/>
+          </home>
+          <away name="Memphis Tigers" alias="MEM" seed="8" id="1551b3a0-6d10-4ffa-8dfa-73b56f004553">
+            <source id="77ff3f8b-c6a6-43df-831a-1488c21146aa" title="East Regional - Second Round - Game 2" status="closed" coverage="full" home_team="1551b3a0-6d10-4ffa-8dfa-73b56f004553" away_team="d52c3640-069c-4554-982e-e6537c8044f1" scheduled="2014-03-21T22:55:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="TNT" satellite="245"/>
+        </game>
+        <game id="d1564751-25f2-4901-a93d-b5201d1fb265" title="East Regional - Third Round - Game 4" status="closed" coverage="full" home_team="4383eb6a-7fd8-4ff2-94c5-43c933121e88" away_team="efba5350-79bc-47aa-a189-db177b95b491" scheduled="2014-03-23T02:00:00+00:00">
+          <venue id="54bb5a1a-6fb2-4190-a04b-e73e6275c3bc" name="First Niagara Center" capacity="19200" address="One Seymour Knox III Plaza" city="Buffalo" state="NY" zip="14203" country="USA"/>
+          <home name="Villanova Wildcats" alias="VILL" seed="2" id="4383eb6a-7fd8-4ff2-94c5-43c933121e88">
+            <source id="0e65b8f5-082c-412a-92cb-f09046dd0efc" title="East Regional - Second Round - Game 8" status="closed" coverage="full" home_team="4383eb6a-7fd8-4ff2-94c5-43c933121e88" away_team="5d77800f-1ae6-4b66-8e97-b0dbb8bbc717" scheduled="2014-03-21T02:00:00+00:00" outcome="win"/>
+          </home>
+          <away name="Connecticut Huskies" alias="CONN" seed="7" id="efba5350-79bc-47aa-a189-db177b95b491">
+            <source id="6c4688c0-0bcf-4620-b6da-a0758117c91c" title="East Regional - Second Round - Game 7" status="closed" coverage="full" home_team="efba5350-79bc-47aa-a189-db177b95b491" away_team="f9e4261e-d11d-46c4-bd33-c7bbc94ef0e8" scheduled="2014-03-20T22:55:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+        <game id="b6e0ac02-516a-4add-bbe1-7b0bc5990cbd" title="East Regional - Third Round - Game 3" status="closed" coverage="full" home_team="0e4258fa-3154-4c16-b693-adecab184c6c" away_team="e9ca48b2-00ba-41c0-a02b-6885a2da1ff1" scheduled="2014-03-23T21:20:00+00:00">
+          <venue id="8a7580c0-4052-54d5-85cd-85aab6200acf" name="AT&amp;T Center" capacity="18581" address="One AT&amp;T Center Parkway" city="San Antonio" state="TX" zip="78219" country="USA"/>
+          <home name="Iowa State Cyclones" alias="ISU" seed="3" id="0e4258fa-3154-4c16-b693-adecab184c6c">
+            <source id="6bbba11d-e766-4b3b-80ea-666323ebf7d2" title="East Regional - Second Round - Game 6" status="closed" coverage="full" home_team="0e4258fa-3154-4c16-b693-adecab184c6c" away_team="e4c315a0-e83f-4d14-856e-34a0463059e3" scheduled="2014-03-22T02:06:00+00:00" outcome="win"/>
+          </home>
+          <away name="North Carolina Tar Heels" alias="UNC" seed="6" id="e9ca48b2-00ba-41c0-a02b-6885a2da1ff1">
+            <source id="4a3f1890-ce8d-48cc-ba9c-107fc3e58fc4" title="East Regional - Second Round - Game 5" status="closed" coverage="full" home_team="e9ca48b2-00ba-41c0-a02b-6885a2da1ff1" away_team="7d3b9c72-cbdd-4b64-9aa3-a5bde9b75fdc" scheduled="2014-03-21T23:20:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+      </bracket>
+      <bracket id="bb605ff2-20bb-49ed-9436-7383c7a2363e" name="South Regional" location="Memphis, TN, USA">
+        <game id="90c78781-81db-4e71-9542-16febc9955da" title="South Regional - Third Round - Game 3" status="closed" coverage="full" home_team="8cd24de1-2be8-4b77-bcfa-47be0495a5f4" away_team="632616c5-2dbb-4017-a449-c9dfc303f026" scheduled="2014-03-22T23:10:00+00:00">
+          <venue id="54bb5a1a-6fb2-4190-a04b-e73e6275c3bc" name="First Niagara Center" capacity="19200" address="One Seymour Knox III Plaza" city="Buffalo" state="NY" zip="14203" country="USA"/>
+          <home name="Syracuse Orange" alias="SYR" seed="3" id="8cd24de1-2be8-4b77-bcfa-47be0495a5f4">
+            <source id="5f90cc10-9e4e-4d25-9e33-fe998bb40b34" title="South Regional - Second Round - Game 6" status="closed" coverage="full" home_team="8cd24de1-2be8-4b77-bcfa-47be0495a5f4" away_team="f2164f01-2cbc-4967-bb1c-93656d790921" scheduled="2014-03-20T18:53:00+00:00" outcome="win"/>
+          </home>
+          <away name="Dayton Flyers" alias="DAY" seed="11" id="632616c5-2dbb-4017-a449-c9dfc303f026">
+            <source id="355499bd-79c7-402a-906a-1d21018b7a8f" title="South Regional - Second Round - Game 5" status="closed" coverage="full" home_team="857462b3-0ab6-4d26-9669-10ca354e382b" away_team="632616c5-2dbb-4017-a449-c9dfc303f026" scheduled="2014-03-20T16:15:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+        <game id="b6ce126e-3375-40c3-832e-86f0252b9df4" title="South Regional - Third Round - Game 4" status="closed" coverage="full" home_team="fae4855b-1b64-4b40-a632-9ed345e1e952" away_team="683ab61f-546f-44da-b085-c3a5740554aa" scheduled="2014-03-23T16:15:00+00:00">
+          <venue id="89df2d95-489d-4a15-b2b5-91041fea8c91" name="Scottrade Center" capacity="21000" address="1401 Clark Ave" city="St. Louis" state="MO" zip="63103" country="USA"/>
+          <home name="Kansas Jayhawks" alias="KU" seed="2" id="fae4855b-1b64-4b40-a632-9ed345e1e952">
+            <source id="fd3dde54-a699-4228-a232-adb978d2c47b" title="South Regional - Second Round - Game 8" status="closed" coverage="full" home_team="fae4855b-1b64-4b40-a632-9ed345e1e952" away_team="e48e3dd5-721c-4d96-8ff4-790fe2597bfd" scheduled="2014-03-21T20:36:00+00:00" outcome="win"/>
+          </home>
+          <away name="Stanford Cardinal" alias="STAN" seed="10" id="683ab61f-546f-44da-b085-c3a5740554aa">
+            <source id="ae2be8bc-de3b-49d8-b22a-464d92455f54" title="South Regional - Second Round - Game 7" status="closed" coverage="full" home_team="1b1977ec-b32f-4ce3-95a4-d07bab4816cd" away_team="683ab61f-546f-44da-b085-c3a5740554aa" scheduled="2014-03-21T17:40:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+        <game id="aba154d0-5b89-4f4f-beed-13e46e385b6c" title="South Regional - Third Round - Game 2" status="closed" coverage="full" home_team="ec0d6b67-4b16-4b50-92b2-1a651dae6b0f" away_team="5ef64f01-86ae-4553-9834-c79cc0859eaf" scheduled="2014-03-23T23:10:00+00:00">
+          <venue id="79da0063-8ef0-4c77-ac98-26e724b0c2f9" name="Viejas Arena" capacity="12414" address="5500 Canyon Crest Drive" city="San Diego" state="CA" zip="92115" country="USA"/>
+          <home name="UCLA Bruins" alias="UCLA" seed="4" id="ec0d6b67-4b16-4b50-92b2-1a651dae6b0f">
+            <source id="27cf9749-c5f1-4f25-909a-b23504665b62" title="South Regional - Second Round - Game 4" status="closed" coverage="full" home_team="ec0d6b67-4b16-4b50-92b2-1a651dae6b0f" away_team="2959bd24-7007-41ae-a3a3-abdf26888cfc" scheduled="2014-03-22T03:14:00+00:00" outcome="win"/>
+          </home>
+          <away name="Stephen F. Austin Lumberjacks" alias="SFA" seed="12" id="5ef64f01-86ae-4553-9834-c79cc0859eaf">
+            <source id="330174b4-4a7a-4482-b801-5b06872637d8" title="South Regional - Second Round - Game 3" status="closed" coverage="full" home_team="c1c1e6df-a383-4fbd-ba7b-32d4f9ef9518" away_team="5ef64f01-86ae-4553-9834-c79cc0859eaf" scheduled="2014-03-22T00:10:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+        <game id="bfcc55c0-2567-446a-8a72-6dd03f66e1e7" title="South Regional - Third Round - Game 1" status="closed" coverage="full" home_team="912f8837-1d81-4ef9-a576-a21f271d4c64" away_team="24051034-96bb-4f78-a3a6-312f3258780f" scheduled="2014-03-22T16:15:00+00:00">
+          <venue id="aecd8da6-0404-599c-a792-4b33fb084a2a" name="Amway Center" capacity="18846" address="400 W. Church St." city="Orlando" state="FL" zip="32801" country="USA"/>
+          <home name="Florida Gators" alias="FLA" seed="1" id="912f8837-1d81-4ef9-a576-a21f271d4c64">
+            <source id="7792ac27-2246-43d2-acd8-832e1dca14c3" title="South Regional - Second Round - Game 1" status="closed" coverage="full" home_team="912f8837-1d81-4ef9-a576-a21f271d4c64" away_team="290a5130-836d-45e6-824f-28704d6ba246" scheduled="2014-03-20T20:11:00+00:00" outcome="win"/>
+          </home>
+          <away name="Pittsburgh Panthers" alias="PITT" seed="9" id="24051034-96bb-4f78-a3a6-312f3258780f">
+            <source id="c8ff45e3-3ef2-4241-9c5c-65cca4a4b60c" title="South Regional - Second Round - Game 2" status="closed" coverage="full" home_team="9fccbf28-2858-4263-821c-fdefb3c7efa3" away_team="24051034-96bb-4f78-a3a6-312f3258780f" scheduled="2014-03-20T17:40:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+      </bracket>
+    </round>
+    <round id="c5464185-8b10-4c00-abfa-49c54baec8ec" sequence="7" name="National Championship">
+      <game id="4e22475f-5018-4b07-9060-7449c3e44a54" title="National Championship" status="closed" coverage="full" home_team="efba5350-79bc-47aa-a189-db177b95b491" away_team="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1" scheduled="2014-04-08T01:10:00+00:00">
+        <venue id="b87201ba-f5b7-42f0-bb60-947ff4eae5e2" name="AT&amp;T Stadium" capacity="80000" address="1 Legends Way" city="Arlington" state="TX" zip="76011" country="USA"/>
+        <home name="Connecticut Huskies" alias="CONN" seed="7" id="efba5350-79bc-47aa-a189-db177b95b491">
+          <source id="b4a036b3-4b82-4d0e-9cc4-2322e1165011" title="Final Four - Semifinals - Game 1" status="closed" coverage="full" home_team="912f8837-1d81-4ef9-a576-a21f271d4c64" away_team="efba5350-79bc-47aa-a189-db177b95b491" scheduled="2014-04-05T22:09:00+00:00" outcome="win"/>
+        </home>
+        <away name="Kentucky Wildcats" alias="UK" seed="8" id="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1">
+          <source id="6192a57a-d35e-4886-a62b-7110bfd3fcd7" title="Final Four - Semifinals - Game 2" status="closed" coverage="full" home_team="c7569eae-5b93-4197-b204-6f3a62146b25" away_team="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1" scheduled="2014-04-06T01:12:00+00:00" outcome="win"/>
+        </away>
+        <broadcast network="CBS"/>
+      </game>
+    </round>
+    <round id="d3ad0a23-d4eb-4672-903f-1104675e4701" sequence="4" name="Sweet 16">
+      <bracket id="30a25345-228b-4b43-8dae-0f6a8391e0bd" name="Midwest Regional" location="Indianapolis, IN, USA">
+        <game id="01c2e48b-17b4-4ffb-b002-6b31d86e048b" title="Midwest Regional - Sweet 16 - Game 2" status="closed" coverage="full" home_team="bdc2561d-f603-4fab-a262-f1d2af462277" away_team="b827dbdf-230f-4916-9703-3bb9004e26eb" scheduled="2014-03-28T23:15:00+00:00">
+          <venue id="12155ac5-1553-48d6-969d-dafc574d0406" name="Lucas Oil Stadium" capacity="70000" address="500 South Capitol Avenue" city="Indianapolis" state="IN" zip="46225" country="USA"/>
+          <home name="Michigan Wolverines" alias="MICH" seed="2" id="bdc2561d-f603-4fab-a262-f1d2af462277">
+            <source id="ab646dcf-4b41-42c4-9248-2eaefd733bca" title="Midwest Regional - Third Round - Game 4" status="closed" coverage="full" home_team="bdc2561d-f603-4fab-a262-f1d2af462277" away_team="6ed15092-2670-450a-99c2-61d861e87644" scheduled="2014-03-22T21:20:00+00:00" outcome="win"/>
+          </home>
+          <away name="Tennessee Volunteers" alias="TENN" seed="11" id="b827dbdf-230f-4916-9703-3bb9004e26eb">
+            <source id="94486457-849f-46be-a8f0-742577961a4f" title="Midwest Regional - Third Round - Game 3" status="closed" coverage="full" home_team="b827dbdf-230f-4916-9703-3bb9004e26eb" away_team="a14b0057-8eb5-43d2-a33b-666196da933e" scheduled="2014-03-23T22:10:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+        <game id="b1ed2669-4460-456a-8974-7130bd9307fd" title="Midwest Regional - Sweet 16 - Game 1" status="closed" coverage="full" home_team="b795ddbc-baab-4499-8803-52e8608520ab" away_team="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1" scheduled="2014-03-29T02:00:00+00:00">
+          <venue id="12155ac5-1553-48d6-969d-dafc574d0406" name="Lucas Oil Stadium" capacity="70000" address="500 South Capitol Avenue" city="Indianapolis" state="IN" zip="46225" country="USA"/>
+          <home name="Louisville Cardinals" alias="LOU" seed="4" id="b795ddbc-baab-4499-8803-52e8608520ab">
+            <source id="93d21134-086c-496b-a9d1-a5798f4dafe7" title="Midwest Regional - Third Round - Game 2" status="closed" coverage="full" home_team="b795ddbc-baab-4499-8803-52e8608520ab" away_team="1e42cce3-236b-4f3e-9650-2c45e6332e1e" scheduled="2014-03-22T18:50:00+00:00" outcome="win"/>
+          </home>
+          <away name="Kentucky Wildcats" alias="UK" seed="8" id="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1">
+            <source id="657319bb-c25a-4099-aba5-dc722e81608b" title="Midwest Regional - Third Round - Game 1" status="closed" coverage="full" home_team="f38b58de-3273-4723-a78b-2f918e9aa2d5" away_team="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1" scheduled="2014-03-23T19:07:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+      </bracket>
+      <bracket id="bb605ff2-20bb-49ed-9436-7383c7a2363e" name="South Regional" location="Memphis, TN, USA">
+        <game id="59a3400c-0f05-41c2-8dfc-2c2789da93aa" title="South Regional - Sweet 16 - Game 1" status="closed" coverage="full" home_team="912f8837-1d81-4ef9-a576-a21f271d4c64" away_team="ec0d6b67-4b16-4b50-92b2-1a651dae6b0f" scheduled="2014-03-28T02:15:00+00:00">
+          <venue id="7657c204-a20b-527a-99cb-dc29218462aa" name="FedEx Forum" capacity="18119" address="191 Beale St" city="Memphis" state="TN" zip="38103" country="USA"/>
+          <home name="Florida Gators" alias="FLA" seed="1" id="912f8837-1d81-4ef9-a576-a21f271d4c64">
+            <source id="bfcc55c0-2567-446a-8a72-6dd03f66e1e7" title="South Regional - Third Round - Game 1" status="closed" coverage="full" home_team="912f8837-1d81-4ef9-a576-a21f271d4c64" away_team="24051034-96bb-4f78-a3a6-312f3258780f" scheduled="2014-03-22T16:15:00+00:00" outcome="win"/>
+          </home>
+          <away name="UCLA Bruins" alias="UCLA" seed="4" id="ec0d6b67-4b16-4b50-92b2-1a651dae6b0f">
+            <source id="aba154d0-5b89-4f4f-beed-13e46e385b6c" title="South Regional - Third Round - Game 2" status="closed" coverage="full" home_team="ec0d6b67-4b16-4b50-92b2-1a651dae6b0f" away_team="5ef64f01-86ae-4553-9834-c79cc0859eaf" scheduled="2014-03-23T23:10:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+        <game id="da30585d-9de0-4f7e-9b28-c034bf2ad0f2" title="South Regional - Sweet 16 - Game 2" status="closed" coverage="full" home_team="683ab61f-546f-44da-b085-c3a5740554aa" away_team="632616c5-2dbb-4017-a449-c9dfc303f026" scheduled="2014-03-27T23:15:00+00:00">
+          <venue id="7657c204-a20b-527a-99cb-dc29218462aa" name="FedEx Forum" capacity="18119" address="191 Beale St" city="Memphis" state="TN" zip="38103" country="USA"/>
+          <home name="Stanford Cardinal" alias="STAN" seed="10" id="683ab61f-546f-44da-b085-c3a5740554aa">
+            <source id="b6ce126e-3375-40c3-832e-86f0252b9df4" title="South Regional - Third Round - Game 4" status="closed" coverage="full" home_team="fae4855b-1b64-4b40-a632-9ed345e1e952" away_team="683ab61f-546f-44da-b085-c3a5740554aa" scheduled="2014-03-23T16:15:00+00:00" outcome="win"/>
+          </home>
+          <away name="Dayton Flyers" alias="DAY" seed="11" id="632616c5-2dbb-4017-a449-c9dfc303f026">
+            <source id="90c78781-81db-4e71-9542-16febc9955da" title="South Regional - Third Round - Game 3" status="closed" coverage="full" home_team="8cd24de1-2be8-4b77-bcfa-47be0495a5f4" away_team="632616c5-2dbb-4017-a449-c9dfc303f026" scheduled="2014-03-22T23:10:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+      </bracket>
+      <bracket id="90150cbb-62d8-44f2-9b36-6f2f672afdbe" name="East Regional" location="New York City, NY, USA">
+        <game id="a7c748e6-82b2-477e-b0b1-6f26b7bbeae6" title="East Regional - Sweet 16 - Game 2" status="closed" coverage="full" home_team="0e4258fa-3154-4c16-b693-adecab184c6c" away_team="efba5350-79bc-47aa-a189-db177b95b491" scheduled="2014-03-28T23:27:00+00:00">
+          <venue id="583152aa-de75-5bea-ac92-ac5b8a51f9f9" name="Madison Square Garden" capacity="19812" address="Four Pennsylvania Plaza" city="New York" state="NY" zip="10001" country="USA"/>
+          <home name="Iowa State Cyclones" alias="ISU" seed="3" id="0e4258fa-3154-4c16-b693-adecab184c6c">
+            <source id="b6e0ac02-516a-4add-bbe1-7b0bc5990cbd" title="East Regional - Third Round - Game 3" status="closed" coverage="full" home_team="0e4258fa-3154-4c16-b693-adecab184c6c" away_team="e9ca48b2-00ba-41c0-a02b-6885a2da1ff1" scheduled="2014-03-23T21:20:00+00:00" outcome="win"/>
+          </home>
+          <away name="Connecticut Huskies" alias="CONN" seed="7" id="efba5350-79bc-47aa-a189-db177b95b491">
+            <source id="d1564751-25f2-4901-a93d-b5201d1fb265" title="East Regional - Third Round - Game 4" status="closed" coverage="full" home_team="4383eb6a-7fd8-4ff2-94c5-43c933121e88" away_team="efba5350-79bc-47aa-a189-db177b95b491" scheduled="2014-03-23T02:00:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+        <game id="336799b5-1f43-45ff-a681-79240f53f7c4" title="East Regional - Sweet 16 - Game 1" status="closed" coverage="full" home_team="56913910-87f7-4ad7-ae3b-5cd9fb218fd9" away_team="a41d5a05-4c11-4171-a57e-e7a1ea325a6d" scheduled="2014-03-29T02:15:00+00:00">
+          <venue id="583152aa-de75-5bea-ac92-ac5b8a51f9f9" name="Madison Square Garden" capacity="19812" address="Four Pennsylvania Plaza" city="New York" state="NY" zip="10001" country="USA"/>
+          <home name="Virginia Cavaliers" alias="UVA" seed="1" id="56913910-87f7-4ad7-ae3b-5cd9fb218fd9">
+            <source id="751a0200-0b11-4365-9edd-106819f9b198" title="East Regional - Third Round - Game 1" status="closed" coverage="full" home_team="56913910-87f7-4ad7-ae3b-5cd9fb218fd9" away_team="1551b3a0-6d10-4ffa-8dfa-73b56f004553" scheduled="2014-03-24T00:57:00+00:00" outcome="win"/>
+          </home>
+          <away name="Michigan State Spartans" alias="MSU" seed="4" id="a41d5a05-4c11-4171-a57e-e7a1ea325a6d">
+            <source id="923fef33-3dea-4591-9e98-9e0b8ddd01f8" title="East Regional - Third Round - Game 2" status="closed" coverage="full" home_team="a41d5a05-4c11-4171-a57e-e7a1ea325a6d" away_team="5c7bf63f-bc39-43c5-9907-73b50b7a6b34" scheduled="2014-03-23T00:48:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+      </bracket>
+      <bracket id="8095fbe3-0842-4ff4-a3af-cf8773fd7535" name="West Regional" location="Anaheim, CA, USA">
+        <game id="f2f41de5-322c-4360-aca2-7290de90832f" title="West Regional - Sweet 16 - Game 1" status="closed" coverage="full" home_team="9b166a3f-e64b-4825-bb6b-92c6f0418263" away_team="e6914f16-ca37-4d2e-ba26-a425910283e2" scheduled="2014-03-28T02:25:00+00:00">
+          <venue id="a3cc94cd-6c71-4fa6-9a55-64f69c71b329" name="Honda Center" capacity="18336" address="2695 East Katella Avenue" city="Anaheim" state="CA" zip="92806" country="USA"/>
+          <home name="Arizona Wildcats" alias="ARIZ" seed="1" id="9b166a3f-e64b-4825-bb6b-92c6f0418263">
+            <source id="48c261a0-44c8-4bb2-8ff7-bbfce8433a1b" title="West Regional - Third Round - Game 1" status="closed" coverage="full" home_team="9b166a3f-e64b-4825-bb6b-92c6f0418263" away_team="2f4d21f8-6d5f-48a5-abca-52a30583871a" scheduled="2014-03-24T01:53:00+00:00" outcome="win"/>
+          </home>
+          <away name="San Diego State Aztecs" alias="SDSU" seed="4" id="e6914f16-ca37-4d2e-ba26-a425910283e2">
+            <source id="579a9965-9a7d-4bf8-8782-bdf4d57021bd" title="West Regional - Third Round - Game 2" status="closed" coverage="full" home_team="e6914f16-ca37-4d2e-ba26-a425910283e2" away_team="984e7518-e418-45d5-9797-979b8c2085c1" scheduled="2014-03-22T22:10:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+        <game id="cd36ad64-f3ec-4cf9-84f5-d338d14524e1" title="West Regional - Sweet 16 - Game 2" status="closed" coverage="full" home_team="c7569eae-5b93-4197-b204-6f3a62146b25" away_team="db6e1cab-3fa3-4a93-a673-8b2a358ff4bf" scheduled="2014-03-27T23:47:00+00:00">
+          <venue id="a3cc94cd-6c71-4fa6-9a55-64f69c71b329" name="Honda Center" capacity="18336" address="2695 East Katella Avenue" city="Anaheim" state="CA" zip="92806" country="USA"/>
+          <home name="Wisconsin Badgers" alias="WIS" seed="2" id="c7569eae-5b93-4197-b204-6f3a62146b25">
+            <source id="bad6158f-8954-4cc5-bd5d-9d06c7fffd71" title="West Regional - Third Round - Game 4" status="closed" coverage="full" home_team="c7569eae-5b93-4197-b204-6f3a62146b25" away_team="1da70895-f77f-44ef-b216-d63c02e696eb" scheduled="2014-03-22T23:45:00+00:00" outcome="win"/>
+          </home>
+          <away name="Baylor Bears" alias="BAY" seed="6" id="db6e1cab-3fa3-4a93-a673-8b2a358ff4bf">
+            <source id="b7b0b3ec-dd7e-4a81-a842-346e937355d3" title="West Regional - Third Round - Game 3" status="closed" coverage="full" home_team="7d797407-623e-476d-b299-46de4275414d" away_team="db6e1cab-3fa3-4a93-a673-8b2a358ff4bf" scheduled="2014-03-23T23:40:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+      </bracket>
+    </round>
+    <round id="eb004e74-4672-4261-b837-d8a8b45accb0" sequence="2" name="Second Round">
+      <bracket id="90150cbb-62d8-44f2-9b36-6f2f672afdbe" name="East Regional" location="New York City, NY, USA">
+        <game id="4a3f1890-ce8d-48cc-ba9c-107fc3e58fc4" title="East Regional - Second Round - Game 5" status="closed" coverage="full" home_team="e9ca48b2-00ba-41c0-a02b-6885a2da1ff1" away_team="7d3b9c72-cbdd-4b64-9aa3-a5bde9b75fdc" scheduled="2014-03-21T23:20:00+00:00">
+          <venue id="8a7580c0-4052-54d5-85cd-85aab6200acf" name="AT&amp;T Center" capacity="18581" address="One AT&amp;T Center Parkway" city="San Antonio" state="TX" zip="78219" country="USA"/>
+          <home name="North Carolina Tar Heels" alias="UNC" seed="6" id="e9ca48b2-00ba-41c0-a02b-6885a2da1ff1">
+          </home>
+          <away name="Providence Friars" alias="PROV" seed="11" id="7d3b9c72-cbdd-4b64-9aa3-a5bde9b75fdc">
+          </away>
+          <broadcast network="TNT" satellite="245"/>
+        </game>
+        <game id="15c85d32-8839-4fbb-a499-2b1b3ec427ba" title="East Regional - Second Round - Game 1" status="closed" coverage="full" home_team="56913910-87f7-4ad7-ae3b-5cd9fb218fd9" away_team="4af63ebd-d3c8-4772-bbde-938a078bd057" scheduled="2014-03-22T01:50:00+00:00">
+          <venue id="5f1a51e1-bdd9-43a2-8743-c37f20265346" name="PNC Arena" capacity="19722" address="1400 Edward Mill Rd" city="Raleigh" state="NC" zip="27607" country="USA"/>
+          <home name="Virginia Cavaliers" alias="UVA" seed="1" id="56913910-87f7-4ad7-ae3b-5cd9fb218fd9">
+          </home>
+          <away name="Coastal Carolina Chanticleers" alias="CCAR" seed="16" id="4af63ebd-d3c8-4772-bbde-938a078bd057">
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+        <game id="6bbba11d-e766-4b3b-80ea-666323ebf7d2" title="East Regional - Second Round - Game 6" status="closed" coverage="full" home_team="0e4258fa-3154-4c16-b693-adecab184c6c" away_team="e4c315a0-e83f-4d14-856e-34a0463059e3" scheduled="2014-03-22T02:06:00+00:00">
+          <venue id="8a7580c0-4052-54d5-85cd-85aab6200acf" name="AT&amp;T Center" capacity="18581" address="One AT&amp;T Center Parkway" city="San Antonio" state="TX" zip="78219" country="USA"/>
+          <home name="Iowa State Cyclones" alias="ISU" seed="3" id="0e4258fa-3154-4c16-b693-adecab184c6c">
+          </home>
+          <away name="North Carolina Central Eagles" alias="NCCU" seed="14" id="e4c315a0-e83f-4d14-856e-34a0463059e3">
+          </away>
+          <broadcast network="TNT" satellite="245"/>
+        </game>
+        <game id="ffe6cca2-e218-4334-a021-fdb344600a25" title="East Regional - Second Round - Game 4" status="closed" coverage="full" home_team="a41d5a05-4c11-4171-a57e-e7a1ea325a6d" away_team="0affc15f-641d-4211-970d-fb9fb8d36842" scheduled="2014-03-20T21:02:00+00:00">
+          <venue id="b665b238-e25c-4726-87ab-58f8c694376b" name="Spokane Veterans Memorial Arena" capacity="12210" address="720 W. Mallon Avenue" city="Spokane" state="WA" zip="99201" country="USA"/>
+          <home name="Michigan State Spartans" alias="MSU" seed="4" id="a41d5a05-4c11-4171-a57e-e7a1ea325a6d">
+          </home>
+          <away name="Delaware Fightin Blue Hens" alias="DEL" seed="13" id="0affc15f-641d-4211-970d-fb9fb8d36842">
+          </away>
+          <broadcast network="TNT" satellite="245"/>
+        </game>
+        <game id="0e65b8f5-082c-412a-92cb-f09046dd0efc" title="East Regional - Second Round - Game 8" status="closed" coverage="full" home_team="4383eb6a-7fd8-4ff2-94c5-43c933121e88" away_team="5d77800f-1ae6-4b66-8e97-b0dbb8bbc717" scheduled="2014-03-21T02:00:00+00:00">
+          <venue id="54bb5a1a-6fb2-4190-a04b-e73e6275c3bc" name="First Niagara Center" capacity="19200" address="One Seymour Knox III Plaza" city="Buffalo" state="NY" zip="14203" country="USA"/>
+          <home name="Villanova Wildcats" alias="VILL" seed="2" id="4383eb6a-7fd8-4ff2-94c5-43c933121e88">
+          </home>
+          <away name="Milwaukee Panthers" alias="MILW" seed="15" id="5d77800f-1ae6-4b66-8e97-b0dbb8bbc717">
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+        <game id="1726d0a3-abf1-4aa0-9382-e77c06097bd9" title="East Regional - Second Round - Game 3" status="closed" coverage="full" home_team="a17dfc54-415f-49c3-a2e6-d6fa9db18b0a" away_team="5c7bf63f-bc39-43c5-9907-73b50b7a6b34" scheduled="2014-03-20T18:10:00+00:00">
+          <venue id="b665b238-e25c-4726-87ab-58f8c694376b" name="Spokane Veterans Memorial Arena" capacity="12210" address="720 W. Mallon Avenue" city="Spokane" state="WA" zip="99201" country="USA"/>
+          <home name="Cincinnati Bearcats" alias="CIN" seed="5" id="a17dfc54-415f-49c3-a2e6-d6fa9db18b0a">
+          </home>
+          <away name="Harvard Crimson" alias="HARV" seed="12" id="5c7bf63f-bc39-43c5-9907-73b50b7a6b34">
+          </away>
+          <broadcast network="TNT" satellite="245"/>
+        </game>
+        <game id="77ff3f8b-c6a6-43df-831a-1488c21146aa" title="East Regional - Second Round - Game 2" status="closed" coverage="full" home_team="1551b3a0-6d10-4ffa-8dfa-73b56f004553" away_team="d52c3640-069c-4554-982e-e6537c8044f1" scheduled="2014-03-21T22:55:00+00:00">
+          <venue id="5f1a51e1-bdd9-43a2-8743-c37f20265346" name="PNC Arena" capacity="19722" address="1400 Edward Mill Rd" city="Raleigh" state="NC" zip="27607" country="USA"/>
+          <home name="Memphis Tigers" alias="MEM" seed="8" id="1551b3a0-6d10-4ffa-8dfa-73b56f004553">
+          </home>
+          <away name="George Washington Colonials" alias="GW" seed="9" id="d52c3640-069c-4554-982e-e6537c8044f1">
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+        <game id="6c4688c0-0bcf-4620-b6da-a0758117c91c" title="East Regional - Second Round - Game 7" status="closed" coverage="full" home_team="efba5350-79bc-47aa-a189-db177b95b491" away_team="f9e4261e-d11d-46c4-bd33-c7bbc94ef0e8" scheduled="2014-03-20T22:55:00+00:00">
+          <venue id="54bb5a1a-6fb2-4190-a04b-e73e6275c3bc" name="First Niagara Center" capacity="19200" address="One Seymour Knox III Plaza" city="Buffalo" state="NY" zip="14203" country="USA"/>
+          <home name="Connecticut Huskies" alias="CONN" seed="7" id="efba5350-79bc-47aa-a189-db177b95b491">
+          </home>
+          <away name="Saint Joseph's (PA) Hawks" alias="JOES" seed="10" id="f9e4261e-d11d-46c4-bd33-c7bbc94ef0e8">
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+      </bracket>
+      <bracket id="8095fbe3-0842-4ff4-a3af-cf8773fd7535" name="West Regional" location="Anaheim, CA, USA">
+        <game id="5ec2d294-49ea-4ef9-9afb-b3555fad7c26" title="West Regional - Second Round - Game 4" status="closed" coverage="full" home_team="e6914f16-ca37-4d2e-ba26-a425910283e2" away_team="5016fe1a-9571-4d10-bf5b-b9c1b496bd57" scheduled="2014-03-21T03:03:00+00:00">
+          <venue id="b665b238-e25c-4726-87ab-58f8c694376b" name="Spokane Veterans Memorial Arena" capacity="12210" address="720 W. Mallon Avenue" city="Spokane" state="WA" zip="99201" country="USA"/>
+          <home name="San Diego State Aztecs" alias="SDSU" seed="4" id="e6914f16-ca37-4d2e-ba26-a425910283e2">
+          </home>
+          <away name="New Mexico State Aggies" alias="NMSU" seed="13" id="5016fe1a-9571-4d10-bf5b-b9c1b496bd57">
+          </away>
+          <broadcast network="truTV" satellite="246"/>
+        </game>
+        <game id="17c101d9-1da9-4c65-8599-9cf758429088" title="West Regional - Second Round - Game 5" status="closed" coverage="full" home_team="db6e1cab-3fa3-4a93-a673-8b2a358ff4bf" away_team="f8b1bf00-5b73-4ac4-98c0-ec554027ae32" scheduled="2014-03-21T16:40:00+00:00">
+          <venue id="8a7580c0-4052-54d5-85cd-85aab6200acf" name="AT&amp;T Center" capacity="18581" address="One AT&amp;T Center Parkway" city="San Antonio" state="TX" zip="78219" country="USA"/>
+          <home name="Baylor Bears" alias="BAY" seed="6" id="db6e1cab-3fa3-4a93-a673-8b2a358ff4bf">
+          </home>
+          <away name="Nebraska Cornhuskers" alias="NEB" seed="11" id="f8b1bf00-5b73-4ac4-98c0-ec554027ae32">
+          </away>
+          <broadcast network="truTV" satellite="246"/>
+        </game>
+        <game id="4a65e041-6e84-4b11-b3a7-8acedb011f73" title="West Regional - Second Round - Game 1" status="closed" coverage="full" home_team="9b166a3f-e64b-4825-bb6b-92c6f0418263" away_team="4743cb7c-784a-4b95-a380-5471f92f2217" scheduled="2014-03-21T18:10:00+00:00">
+          <venue id="79da0063-8ef0-4c77-ac98-26e724b0c2f9" name="Viejas Arena" capacity="12414" address="5500 Canyon Crest Drive" city="San Diego" state="CA" zip="92115" country="USA"/>
+          <home name="Arizona Wildcats" alias="ARIZ" seed="1" id="9b166a3f-e64b-4825-bb6b-92c6f0418263">
+          </home>
+          <away name="Weber State Wildcats" alias="WEB" seed="16" id="4743cb7c-784a-4b95-a380-5471f92f2217">
+          </away>
+          <broadcast network="TNT" satellite="245"/>
+        </game>
+        <game id="668626a5-76c4-4194-a1f4-65e85a157e33" title="West Regional - Second Round - Game 2" status="closed" coverage="full" home_team="2f4d21f8-6d5f-48a5-abca-52a30583871a" away_team="8ab00d43-840a-4c96-bdee-bf88fa6e3f11" scheduled="2014-03-21T20:56:00+00:00">
+          <venue id="79da0063-8ef0-4c77-ac98-26e724b0c2f9" name="Viejas Arena" capacity="12414" address="5500 Canyon Crest Drive" city="San Diego" state="CA" zip="92115" country="USA"/>
+          <home name="Gonzaga Bulldogs" alias="GONZ" seed="8" id="2f4d21f8-6d5f-48a5-abca-52a30583871a">
+          </home>
+          <away name="Oklahoma State Cowboys" alias="OKST" seed="9" id="8ab00d43-840a-4c96-bdee-bf88fa6e3f11">
+          </away>
+          <broadcast network="TNT" satellite="245"/>
+        </game>
+        <game id="c9e612f3-6755-4961-a092-67a3e5069b33" title="West Regional - Second Round - Game 6" status="closed" coverage="full" home_team="7d797407-623e-476d-b299-46de4275414d" away_team="63cad858-8654-4956-8438-8fe79cd1208a" scheduled="2014-03-21T19:30:00+00:00">
+          <venue id="8a7580c0-4052-54d5-85cd-85aab6200acf" name="AT&amp;T Center" capacity="18581" address="One AT&amp;T Center Parkway" city="San Antonio" state="TX" zip="78219" country="USA"/>
+          <home name="Creighton Bluejays" alias="CREI" seed="3" id="7d797407-623e-476d-b299-46de4275414d">
+          </home>
+          <away name="Louisiana-Lafayette Ragin' Cajuns" alias="ULL" seed="14" id="63cad858-8654-4956-8438-8fe79cd1208a">
+          </away>
+          <broadcast network="truTV" satellite="246"/>
+        </game>
+        <game id="763c1b51-d759-4167-825c-168ea4a51b5f" title="West Regional - Second Round - Game 3" status="closed" coverage="full" home_team="b2fda957-e15c-4fb2-8a13-6e58496f561e" away_team="984e7518-e418-45d5-9797-979b8c2085c1" scheduled="2014-03-20T23:55:00+00:00">
+          <venue id="b665b238-e25c-4726-87ab-58f8c694376b" name="Spokane Veterans Memorial Arena" capacity="12210" address="720 W. Mallon Avenue" city="Spokane" state="WA" zip="99201" country="USA"/>
+          <home name="Oklahoma Sooners" alias="OKLA" seed="5" id="b2fda957-e15c-4fb2-8a13-6e58496f561e">
+          </home>
+          <away name="North Dakota State Bison" alias="NDSU" seed="12" id="984e7518-e418-45d5-9797-979b8c2085c1">
+          </away>
+          <broadcast network="truTV" satellite="246"/>
+        </game>
+        <game id="0937bfda-b725-4b6c-9ddc-6f4743e9c1eb" title="West Regional - Second Round - Game 8" status="closed" coverage="full" home_team="c7569eae-5b93-4197-b204-6f3a62146b25" away_team="2f513e67-f019-4eec-9096-fbc5911858b6" scheduled="2014-03-20T16:40:00+00:00">
+          <venue id="9bb9599c-17dd-4253-82bb-96fae950a32f" name="BMO Harris Bradley Center" capacity="19000" address="1001 N Fourth St" city="Milwaukee" state="WI" zip="53203" country="USA"/>
+          <home name="Wisconsin Badgers" alias="WIS" seed="2" id="c7569eae-5b93-4197-b204-6f3a62146b25">
+          </home>
+          <away name="American University Eagles" alias="AMER" seed="15" id="2f513e67-f019-4eec-9096-fbc5911858b6">
+          </away>
+          <broadcast network="truTV" satellite="246"/>
+        </game>
+        <game id="a6c989d3-016e-4c90-bd57-7fbea4dce7c9" title="West Regional - Second Round - Game 7" status="closed" coverage="full" home_team="1da70895-f77f-44ef-b216-d63c02e696eb" away_team="c31455b2-8a45-4248-aa8f-ce7eab1c6b02" scheduled="2014-03-20T19:11:00+00:00">
+          <venue id="9bb9599c-17dd-4253-82bb-96fae950a32f" name="BMO Harris Bradley Center" capacity="19000" address="1001 N Fourth St" city="Milwaukee" state="WI" zip="53203" country="USA"/>
+          <home name="Oregon Ducks" alias="ORE" seed="7" id="1da70895-f77f-44ef-b216-d63c02e696eb">
+          </home>
+          <away name="Brigham Young Cougars" alias="BYU" seed="10" id="c31455b2-8a45-4248-aa8f-ce7eab1c6b02">
+          </away>
+          <broadcast network="truTV" satellite="246"/>
+        </game>
+      </bracket>
+      <bracket id="bb605ff2-20bb-49ed-9436-7383c7a2363e" name="South Regional" location="Memphis, TN, USA">
+        <game id="330174b4-4a7a-4482-b801-5b06872637d8" title="South Regional - Second Round - Game 3" status="closed" coverage="full" home_team="c1c1e6df-a383-4fbd-ba7b-32d4f9ef9518" away_team="5ef64f01-86ae-4553-9834-c79cc0859eaf" scheduled="2014-03-22T00:10:00+00:00">
+          <venue id="79da0063-8ef0-4c77-ac98-26e724b0c2f9" name="Viejas Arena" capacity="12414" address="5500 Canyon Crest Drive" city="San Diego" state="CA" zip="92115" country="USA"/>
+          <home name="Virginia Commonwealth Rams" alias="VCU" seed="5" id="c1c1e6df-a383-4fbd-ba7b-32d4f9ef9518">
+          </home>
+          <away name="Stephen F. Austin Lumberjacks" alias="SFA" seed="12" id="5ef64f01-86ae-4553-9834-c79cc0859eaf">
+          </away>
+          <broadcast network="truTV" satellite="246"/>
+        </game>
+        <game id="ae2be8bc-de3b-49d8-b22a-464d92455f54" title="South Regional - Second Round - Game 7" status="closed" coverage="full" home_team="1b1977ec-b32f-4ce3-95a4-d07bab4816cd" away_team="683ab61f-546f-44da-b085-c3a5740554aa" scheduled="2014-03-21T17:40:00+00:00">
+          <venue id="89df2d95-489d-4a15-b2b5-91041fea8c91" name="Scottrade Center" capacity="21000" address="1401 Clark Ave" city="St. Louis" state="MO" zip="63103" country="USA"/>
+          <home name="New Mexico Lobos" alias="UNM" seed="7" id="1b1977ec-b32f-4ce3-95a4-d07bab4816cd">
+          </home>
+          <away name="Stanford Cardinal" alias="STAN" seed="10" id="683ab61f-546f-44da-b085-c3a5740554aa">
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+        <game id="27cf9749-c5f1-4f25-909a-b23504665b62" title="South Regional - Second Round - Game 4" status="closed" coverage="full" home_team="ec0d6b67-4b16-4b50-92b2-1a651dae6b0f" away_team="2959bd24-7007-41ae-a3a3-abdf26888cfc" scheduled="2014-03-22T03:14:00+00:00">
+          <venue id="79da0063-8ef0-4c77-ac98-26e724b0c2f9" name="Viejas Arena" capacity="12414" address="5500 Canyon Crest Drive" city="San Diego" state="CA" zip="92115" country="USA"/>
+          <home name="UCLA Bruins" alias="UCLA" seed="4" id="ec0d6b67-4b16-4b50-92b2-1a651dae6b0f">
+          </home>
+          <away name="Tulsa Golden Hurricane" alias="TLSA" seed="13" id="2959bd24-7007-41ae-a3a3-abdf26888cfc">
+          </away>
+          <broadcast network="truTV" satellite="246"/>
+        </game>
+        <game id="5f90cc10-9e4e-4d25-9e33-fe998bb40b34" title="South Regional - Second Round - Game 6" status="closed" coverage="full" home_team="8cd24de1-2be8-4b77-bcfa-47be0495a5f4" away_team="f2164f01-2cbc-4967-bb1c-93656d790921" scheduled="2014-03-20T18:53:00+00:00">
+          <venue id="54bb5a1a-6fb2-4190-a04b-e73e6275c3bc" name="First Niagara Center" capacity="19200" address="One Seymour Knox III Plaza" city="Buffalo" state="NY" zip="14203" country="USA"/>
+          <home name="Syracuse Orange" alias="SYR" seed="3" id="8cd24de1-2be8-4b77-bcfa-47be0495a5f4">
+          </home>
+          <away name="Western Michigan Broncos" alias="WMU" seed="14" id="f2164f01-2cbc-4967-bb1c-93656d790921">
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+        <game id="c8ff45e3-3ef2-4241-9c5c-65cca4a4b60c" title="South Regional - Second Round - Game 2" status="closed" coverage="full" home_team="9fccbf28-2858-4263-821c-fdefb3c7efa3" away_team="24051034-96bb-4f78-a3a6-312f3258780f" scheduled="2014-03-20T17:40:00+00:00">
+          <venue id="aecd8da6-0404-599c-a792-4b33fb084a2a" name="Amway Center" capacity="18846" address="400 W. Church St." city="Orlando" state="FL" zip="32801" country="USA"/>
+          <home name="Colorado Buffaloes" alias="COLO" seed="8" id="9fccbf28-2858-4263-821c-fdefb3c7efa3">
+          </home>
+          <away name="Pittsburgh Panthers" alias="PITT" seed="9" id="24051034-96bb-4f78-a3a6-312f3258780f">
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+        <game id="fd3dde54-a699-4228-a232-adb978d2c47b" title="South Regional - Second Round - Game 8" status="closed" coverage="full" home_team="fae4855b-1b64-4b40-a632-9ed345e1e952" away_team="e48e3dd5-721c-4d96-8ff4-790fe2597bfd" scheduled="2014-03-21T20:36:00+00:00">
+          <venue id="89df2d95-489d-4a15-b2b5-91041fea8c91" name="Scottrade Center" capacity="21000" address="1401 Clark Ave" city="St. Louis" state="MO" zip="63103" country="USA"/>
+          <home name="Kansas Jayhawks" alias="KU" seed="2" id="fae4855b-1b64-4b40-a632-9ed345e1e952">
+          </home>
+          <away name="Eastern Kentucky Colonels" alias="EKY" seed="15" id="e48e3dd5-721c-4d96-8ff4-790fe2597bfd">
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+        <game id="355499bd-79c7-402a-906a-1d21018b7a8f" title="South Regional - Second Round - Game 5" status="closed" coverage="full" home_team="857462b3-0ab6-4d26-9669-10ca354e382b" away_team="632616c5-2dbb-4017-a449-c9dfc303f026" scheduled="2014-03-20T16:15:00+00:00">
+          <venue id="54bb5a1a-6fb2-4190-a04b-e73e6275c3bc" name="First Niagara Center" capacity="19200" address="One Seymour Knox III Plaza" city="Buffalo" state="NY" zip="14203" country="USA"/>
+          <home name="Ohio State Buckeyes" alias="OSU" seed="6" id="857462b3-0ab6-4d26-9669-10ca354e382b">
+          </home>
+          <away name="Dayton Flyers" alias="DAY" seed="11" id="632616c5-2dbb-4017-a449-c9dfc303f026">
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+        <game id="7792ac27-2246-43d2-acd8-832e1dca14c3" title="South Regional - Second Round - Game 1" status="closed" coverage="full" home_team="912f8837-1d81-4ef9-a576-a21f271d4c64" away_team="290a5130-836d-45e6-824f-28704d6ba246" scheduled="2014-03-20T20:11:00+00:00">
+          <venue id="aecd8da6-0404-599c-a792-4b33fb084a2a" name="Amway Center" capacity="18846" address="400 W. Church St." city="Orlando" state="FL" zip="32801" country="USA"/>
+          <home name="Florida Gators" alias="FLA" seed="1" id="912f8837-1d81-4ef9-a576-a21f271d4c64">
+          </home>
+          <away name="Albany Great Danes" alias="ALBY" seed="16" id="290a5130-836d-45e6-824f-28704d6ba246">
+            <source id="065a95cc-337f-46c7-92d2-6fd521ac31b7" title="First Four - First Round - Game 1" status="closed" coverage="full" home_team="5fe4a398-1699-4442-a364-305b2f0ac01e" away_team="290a5130-836d-45e6-824f-28704d6ba246" scheduled="2014-03-18T22:40:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="TBS" satellite="247"/>
+        </game>
+      </bracket>
+      <bracket id="30a25345-228b-4b43-8dae-0f6a8391e0bd" name="Midwest Regional" location="Indianapolis, IN, USA">
+        <game id="6676d427-0ba6-4215-bf8e-381e08748614" title="Midwest Regional - Second Round - Game 5" status="closed" coverage="full" home_team="88104678-e53b-43b3-82f7-efb3a11cedb9" away_team="b827dbdf-230f-4916-9703-3bb9004e26eb" scheduled="2014-03-21T19:01:00+00:00">
+          <venue id="5f1a51e1-bdd9-43a2-8743-c37f20265346" name="PNC Arena" capacity="19722" address="1400 Edward Mill Rd" city="Raleigh" state="NC" zip="27607" country="USA"/>
+          <home name="Massachusetts Minutemen" alias="MASS" seed="6" id="88104678-e53b-43b3-82f7-efb3a11cedb9">
+          </home>
+          <away name="Tennessee Volunteers" alias="TENN" seed="11" id="b827dbdf-230f-4916-9703-3bb9004e26eb">
+            <source id="51d7ce42-bfc7-41cc-b995-48fdb8fbbc35" title="First Four - First Round - Game 4" status="closed" coverage="full" home_team="b827dbdf-230f-4916-9703-3bb9004e26eb" away_team="c10544de-e3bd-4776-ba2e-83df8c017fd1" scheduled="2014-03-20T01:10:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+        <game id="f8dc27ba-1cb8-40e2-aa2c-875530bdb8b3" title="Midwest Regional - Second Round - Game 4" status="closed" coverage="full" home_team="b795ddbc-baab-4499-8803-52e8608520ab" away_team="7a270923-01d6-4a6f-a93e-e8786266d502" scheduled="2014-03-21T02:32:00+00:00">
+          <venue id="aecd8da6-0404-599c-a792-4b33fb084a2a" name="Amway Center" capacity="18846" address="400 W. Church St." city="Orlando" state="FL" zip="32801" country="USA"/>
+          <home name="Louisville Cardinals" alias="LOU" seed="4" id="b795ddbc-baab-4499-8803-52e8608520ab">
+          </home>
+          <away name="Manhattan Jaspers" alias="MAN" seed="13" id="7a270923-01d6-4a6f-a93e-e8786266d502">
+          </away>
+          <broadcast network="TNT" satellite="245"/>
+        </game>
+        <game id="32a8c6b0-df2d-4869-9625-e192b91ad82d" title="Midwest Regional - Second Round - Game 2" status="closed" coverage="full" home_team="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1" away_team="d203f38a-a166-4258-bca2-e161b591ecfb" scheduled="2014-03-22T02:05:00+00:00">
+          <venue id="89df2d95-489d-4a15-b2b5-91041fea8c91" name="Scottrade Center" capacity="21000" address="1401 Clark Ave" city="St. Louis" state="MO" zip="63103" country="USA"/>
+          <home name="Kentucky Wildcats" alias="UK" seed="8" id="2267a1f4-68f6-418b-aaf6-2aa0c4b291f1">
+          </home>
+          <away name="Kansas State Wildcats" alias="KSU" seed="9" id="d203f38a-a166-4258-bca2-e161b591ecfb">
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+        <game id="81697a02-d53b-40da-b633-cf03dbfe0dbb" title="Midwest Regional - Second Round - Game 6" status="closed" coverage="full" home_team="faeb1160-5d15-4f26-99fc-c441cf21fc7f" away_team="a14b0057-8eb5-43d2-a33b-666196da933e" scheduled="2014-03-21T16:15:00+00:00">
+          <venue id="5f1a51e1-bdd9-43a2-8743-c37f20265346" name="PNC Arena" capacity="19722" address="1400 Edward Mill Rd" city="Raleigh" state="NC" zip="27607" country="USA"/>
+          <home name="Duke Blue Devils" alias="DUKE" seed="3" id="faeb1160-5d15-4f26-99fc-c441cf21fc7f">
+          </home>
+          <away name="Mercer Bears" alias="MER" seed="14" id="a14b0057-8eb5-43d2-a33b-666196da933e">
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+        <game id="973aa9a2-f42e-473f-8074-91e295bb94f4" title="Midwest Regional - Second Round - Game 8" status="closed" coverage="full" home_team="bdc2561d-f603-4fab-a262-f1d2af462277" away_team="9916713f-b243-452b-93ae-a2c3ccabf68b" scheduled="2014-03-20T23:10:00+00:00">
+          <venue id="9bb9599c-17dd-4253-82bb-96fae950a32f" name="BMO Harris Bradley Center" capacity="19000" address="1001 N Fourth St" city="Milwaukee" state="WI" zip="53203" country="USA"/>
+          <home name="Michigan Wolverines" alias="MICH" seed="2" id="bdc2561d-f603-4fab-a262-f1d2af462277">
+          </home>
+          <away name="Wofford Terriers" alias="WOF" seed="15" id="9916713f-b243-452b-93ae-a2c3ccabf68b">
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+        <game id="9dd937a4-2b43-47d0-991d-a0dbd7ac1cfc" title="Midwest Regional - Second Round - Game 7" status="closed" coverage="full" home_team="6ed15092-2670-450a-99c2-61d861e87644" away_team="ad4bc983-8d2e-4e6f-a8f9-80840a786c64" scheduled="2014-03-21T01:38:00+00:00">
+          <venue id="9bb9599c-17dd-4253-82bb-96fae950a32f" name="BMO Harris Bradley Center" capacity="19000" address="1001 N Fourth St" city="Milwaukee" state="WI" zip="53203" country="USA"/>
+          <home name="Texas Longhorns" alias="TEX" seed="7" id="6ed15092-2670-450a-99c2-61d861e87644">
+          </home>
+          <away name="Arizona State Sun Devils" alias="ASU" seed="10" id="ad4bc983-8d2e-4e6f-a8f9-80840a786c64">
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+        <game id="21aab96c-4dc5-4f26-8dd4-8c23d5d3e1ca" title="Midwest Regional - Second Round - Game 1" status="closed" coverage="full" home_team="f38b58de-3273-4723-a78b-2f918e9aa2d5" away_team="45439cdb-af7a-4743-936c-dccc76b30877" scheduled="2014-03-21T23:25:00+00:00">
+          <venue id="89df2d95-489d-4a15-b2b5-91041fea8c91" name="Scottrade Center" capacity="21000" address="1401 Clark Ave" city="St. Louis" state="MO" zip="63103" country="USA"/>
+          <home name="Wichita State Shockers" alias="WICH" seed="1" id="f38b58de-3273-4723-a78b-2f918e9aa2d5">
+          </home>
+          <away name="Cal Poly Mustangs" alias="CP" seed="16" id="45439cdb-af7a-4743-936c-dccc76b30877">
+            <source id="a23144e9-38ca-4493-8aa5-b38bb3187122" title="First Four - First Round - Game 3" status="closed" coverage="full" home_team="eb157f98-0697-459c-9293-ddb162ceb28b" away_team="45439cdb-af7a-4743-936c-dccc76b30877" scheduled="2014-03-19T22:40:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="CBS"/>
+        </game>
+        <game id="37902a80-a982-4df7-b5a4-89b54ca662b2" title="Midwest Regional - Second Round - Game 3" status="closed" coverage="full" home_team="1e42cce3-236b-4f3e-9650-2c45e6332e1e" away_team="52df1e19-b142-4a76-a439-ad68455d0581" scheduled="2014-03-20T23:20:00+00:00">
+          <venue id="aecd8da6-0404-599c-a792-4b33fb084a2a" name="Amway Center" capacity="18846" address="400 W. Church St." city="Orlando" state="FL" zip="32801" country="USA"/>
+          <home name="Saint Louis Billikens" alias="SLU" seed="5" id="1e42cce3-236b-4f3e-9650-2c45e6332e1e">
+          </home>
+          <away name="North Carolina State Wolfpack" alias="NCST" seed="12" id="52df1e19-b142-4a76-a439-ad68455d0581">
+            <source id="1a468fb6-8545-4e8d-87d8-ef0f7d494365" title="First Four - First Round - Game 2" status="closed" coverage="full" home_team="0d8a328f-20ce-410b-bed1-15fc01308aaf" away_team="52df1e19-b142-4a76-a439-ad68455d0581" scheduled="2014-03-19T01:12:00+00:00" outcome="win"/>
+          </away>
+          <broadcast network="TNT" satellite="245"/>
+        </game>
+      </bracket>
+    </round>
+  </tournament-schedule>
+</league>
+<!-- Generation ended @ 2015-03-13 19:10:52 +0000 -->
