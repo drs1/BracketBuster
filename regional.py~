@@ -57,11 +57,10 @@ class Regional:
     def getStat(self,team, stat):
             #find the teams stat we're concerned with
         try:
-            file = open('xml/%s.xml'%team)
+            file = open('%s.xml'%team)
         except IOError:
             return 0
         tree = ET.parse(file)
         root = tree.getroot()[0][0][0][1]
-        file.close()
         return root.get('%s'%stat)
 
