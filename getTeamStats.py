@@ -50,7 +50,7 @@ def parseXML(filename):
                                                                                                                                                                    team_id = home_id,
                                                                                                                                                                    key = 'h7xctejux9gwa7tdjf99bfge')
             home_stats_req = requests.get(home_url)
-            home_file = open('%s.xml'%home,'wr+')
+            home_file = open('%s.xml'%home_id,'wr+')
             home_file.write(home_stats_req.content)
             home_file.close()
             away = game[1].get('alias')
@@ -66,7 +66,7 @@ def parseXML(filename):
                                                                                                                                                                    team_id = away_id,
                                                                                                                                                                    key = 'h7xctejux9gwa7tdjf99bfge')
                 away_stats_req = requests.get(away_url)
-                away_file = open('%s.xml'%away,'wr+')
+                away_file = open('%s.xml'%away_id,'wr+')
                 away_file.write(away_stats_req.content)
                 away_file.close()
             time.sleep(1.0)

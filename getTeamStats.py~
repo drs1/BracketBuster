@@ -36,39 +36,40 @@ def parseXML(filename):
     tree = ET.parse(filename)
     root = tree.getroot()[0]
     for round in root:
-        if round.get('sequence') == '1':
+        if round.get('sequence') == '2':
             new_root = round
     for bracket in new_root:
         for game in bracket:
             home = game[0].get('alias')
             home_id = game[0].get('id')
-            away = game[1].get('alias')
-            away_id = game[1].get('id')
-            #snag regular season stats for both teams
-            print home
+
             home_url = 'http://api.sportsdatallc.org/ncaamb-{access}{version}/seasontd/{season}/{ncaa_season}/teams/{team_id}/statistics.xml?api_key={key}'.format(access='t',
                                                                                                                                                                    version='3',
                                                                                                                                                                    season='2014',
                                                                                                                                                                    ncaa_season='reg',
                                                                                                                                                                    team_id = home_id,
                                                                                                                                                                    key = 'h7xctejux9gwa7tdjf99bfge')
-            print away
-            away_url = 'http://api.sportsdatallc.org/ncaamb-{access}{version}/seasontd/{season}/{ncaa_season}/teams/{team_id}/statistics.xml?api_key={key}'.format(access='t',
+            home_stats_req = requests.get(home_url)
+            home_file = open('%s.xml'%home,'wr+')
+            home_file.write(home_stats_req.content)
+            home_file.close()
+            away = game[1].get('alias')
+            if(away is not None):
+               
+                away_id = game[1].get('id')
+                
+                time.sleep(1.0)  #damn api only allows 1 call per second
+                away_url = 'http://api.sportsdatallc.org/ncaamb-{access}{version}/seasontd/{season}/{ncaa_season}/teams/{team_id}/statistics.xml?api_key={key}'.format(access='t',
                                                                                                                                                                    version='3',
                                                                                                                                                                    season='2014',
                                                                                                                                                                    ncaa_season='reg',
                                                                                                                                                                    team_id = away_id,
                                                                                                                                                                    key = 'h7xctejux9gwa7tdjf99bfge')
-
-            time.sleep(1.0)  #damn api only allows 1 call per second
-            home_stats_req = requests.get(home_url)
+                away_stats_req = requests.get(away_url)
+                away_file = open('%s.xml'%away,'wr+')
+                away_file.write(away_stats_req.content)
+                away_file.close()
             time.sleep(1.0)
-            away_stats_req = requests.get(away_url)
-            home_file = open('%s.xml'%home,'wr+')
-            away_file = open('%s.xml'%away,'wr+')
-            home_file.write(home_stats_req.content)
-            away_file.write(away_stats_req.content)
-
 
 parseXML(filename)
 

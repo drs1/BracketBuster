@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generation started @ 2015-03-16 18:15:32 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/basketball/statistics-v2.0.xsd" id="d23f0f9c-8ba3-42d9-a181-60c27295b454" year="2014" type="REG">
+  <team id="c1c1e6df-a383-4fbd-ba7b-32d4f9ef9518" name="Rams" market="Virginia Commonwealth">
+    <team_records>
+      <overall>
+        <total games_played="35" minutes="7150.0" field_goals_made="872" field_goals_att="2076" three_points_made="283" three_points_att="828" blocked_att="113" free_throws_made="510" free_throws_att="778" offensive_rebounds="372" defensive_rebounds="766" assists="442" turnovers="373" steals="338" blocks="151" personal_fouls="674" tech_fouls="1" points="2537" fast_break_pts="253" paint_pts="990" flagrant_fouls="0" points_off_turnovers="618" second_chance_pts="427" free_throws_pct="0.656" two_points_pct="0.472" three_points_pct="0.342" field_goals_pct="0.42" rebounds="1138" assists_turnover_ratio="1.18" two_points_made="589" two_points_att="1248"/>
+        <average second_chance_pts="12.2" points_off_turnovers="17.66" paint_pts="28.29" fast_break_pts="7.23" points="72.5" blocked_att="3.23" turnovers="10.66" free_throws_att="22.23" field_goals_att="59.31" off_rebounds="10.63" two_points_att="35.66" assists="12.6" blocks="4.31" personal_fouls="19.26" two_points_made="16.83" flagrant_fouls="0.0" rebounds="32.51" three_points_made="8.09" minutes="204.3" def_rebounds="21.89" free_throws_made="14.57" field_goals_made="24.91" steals="9.66" three_points_att="23.66"/>
+      </overall>
+      <opponents>
+        <total games_played="35" minutes="7150.0" field_goals_made="794" field_goals_att="1835" three_points_made="223" three_points_att="649" blocked_att="133" free_throws_made="482" free_throws_att="694" offensive_rebounds="298" defensive_rebounds="869" assists="451" turnovers="566" steals="205" blocks="117" personal_fouls="655" tech_fouls="2" points="2293" fast_break_pts="263" paint_pts="984" flagrant_fouls="1" points_off_turnovers="354" second_chance_pts="340" free_throws_pct="0.695" two_points_pct="0.481" three_points_pct="0.344" field_goals_pct="0.433" rebounds="1167" assists_turnover_ratio="0.8" two_points_made="571" two_points_att="1186"/>
+        <average second_chance_pts="9.71" points_off_turnovers="10.11" paint_pts="28.11" fast_break_pts="7.51" points="65.5" blocked_att="3.8" turnovers="16.17" free_throws_att="19.83" field_goals_att="52.43" off_rebounds="8.51" two_points_att="33.89" assists="12.9" blocks="3.34" personal_fouls="18.71" two_points_made="16.31" flagrant_fouls="0.03" rebounds="33.34" three_points_made="6.37" minutes="204.3" def_rebounds="24.83" free_throws_made="13.77" field_goals_made="22.69" steals="5.86" three_points_att="18.54"/>
+      </opponents>
+    </team_records>
+    <player_records>
+      <player id="bd78ce6f-5b8f-4950-b654-a06fac87ad79" full_name="Terry Larrier" first_name="Terry" last_name="Larrier" position="G-F" primary_position="NA" jersey_number="22">
+        <overall>
+          <total games_played="35" games_started="5" minutes="647.0" field_goals_made="72" field_goals_att="209" three_points_made="32" three_points_att="122" blocked_att="9" free_throws_made="59" free_throws_att="83" offensive_rebounds="31" defensive_rebounds="73" assists="20" turnovers="35" steals="15" blocks="5" personal_fouls="49" tech_fouls="0" points="235" flagrant_fouls="0" free_throws_pct="0.711" two_points_pct="0.46" three_points_pct="0.262" field_goals_pct="0.344" rebounds="104" assists_turnover_ratio="0.57" two_points_made="40" two_points_att="87"/>
+          <average points="6.7" blocked_att="0.26" turnovers="1.0" free_throws_att="2.37" field_goals_att="5.97" off_rebounds="0.89" two_points_att="2.49" assists="0.6" blocks="0.14" personal_fouls="1.4" two_points_made="1.14" flagrant_fouls="0.0" rebounds="2.97" three_points_made="0.91" minutes="18.5" def_rebounds="2.09" free_throws_made="1.69" field_goals_made="2.06" steals="0.43" three_points_att="3.49"/>
+        </overall>
+      </player>
+      <player id="0aa5070a-a2e9-439e-9d7e-c00e6b599455" full_name="Jonathan Williams" first_name="Jonathan" last_name="Williams" position="G" primary_position="NA" jersey_number="10">
+        <overall>
+          <total games_played="34" games_started="1" minutes="352.0" field_goals_made="26" field_goals_att="75" three_points_made="0" three_points_att="2" blocked_att="7" free_throws_made="22" free_throws_att="47" offensive_rebounds="2" defensive_rebounds="18" assists="46" turnovers="28" steals="23" blocks="1" personal_fouls="41" tech_fouls="0" points="74" flagrant_fouls="0" free_throws_pct="0.468" two_points_pct="0.356" three_points_pct="0.0" field_goals_pct="0.347" rebounds="20" assists_turnover_ratio="1.64" two_points_made="26" two_points_att="73"/>
+          <average points="2.2" blocked_att="0.21" turnovers="0.82" free_throws_att="1.38" field_goals_att="2.21" off_rebounds="0.06" two_points_att="2.15" assists="1.4" blocks="0.03" personal_fouls="1.21" two_points_made="0.76" flagrant_fouls="0.0" rebounds="0.59" three_points_made="0.0" minutes="10.4" def_rebounds="0.53" free_throws_made="0.65" field_goals_made="0.76" steals="0.68" three_points_att="0.06"/>
+        </overall>
+      </player>
+      <player id="86269a68-99bd-4829-ae05-70bac106a798" full_name="JeQuan Lewis" first_name="JeQuan" last_name="Lewis" position="G" primary_position="NA" jersey_number="1">
+        <overall>
+          <total games_played="34" games_started="15" minutes="728.0" field_goals_made="88" field_goals_att="238" three_points_made="36" three_points_att="104" blocked_att="11" free_throws_made="74" free_throws_att="92" offensive_rebounds="10" defensive_rebounds="46" assists="91" turnovers="73" steals="49" blocks="0" personal_fouls="88" tech_fouls="0" points="286" flagrant_fouls="0" free_throws_pct="0.804" two_points_pct="0.388" three_points_pct="0.346" field_goals_pct="0.37" rebounds="56" assists_turnover_ratio="1.25" two_points_made="52" two_points_att="134"/>
+          <average points="8.4" blocked_att="0.32" turnovers="2.15" free_throws_att="2.71" field_goals_att="7.0" off_rebounds="0.29" two_points_att="3.94" assists="2.7" blocks="0.0" personal_fouls="2.59" two_points_made="1.53" flagrant_fouls="0.0" rebounds="1.65" three_points_made="1.06" minutes="21.4" def_rebounds="1.35" free_throws_made="2.18" field_goals_made="2.59" steals="1.44" three_points_att="3.06"/>
+        </overall>
+      </player>
+      <player id="07eddd42-c635-41f8-adec-2a4d63d8012d" full_name="Melvin Johnson" first_name="Melvin" last_name="Johnson" position="G" primary_position="NA" jersey_number="32">
+        <overall>
+          <total games_played="35" games_started="29" minutes="965.0" field_goals_made="149" field_goals_att="371" three_points_made="84" three_points_att="229" blocked_att="7" free_throws_made="48" free_throws_att="61" offensive_rebounds="17" defensive_rebounds="50" assists="63" turnovers="35" steals="37" blocks="3" personal_fouls="56" tech_fouls="0" points="430" flagrant_fouls="0" free_throws_pct="0.787" two_points_pct="0.458" three_points_pct="0.367" field_goals_pct="0.402" rebounds="67" assists_turnover_ratio="1.8" two_points_made="65" two_points_att="142"/>
+          <average points="12.3" blocked_att="0.2" turnovers="1.0" free_throws_att="1.74" field_goals_att="10.6" off_rebounds="0.49" two_points_att="4.06" assists="1.8" blocks="0.09" personal_fouls="1.6" two_points_made="1.86" flagrant_fouls="0.0" rebounds="1.91" three_points_made="2.4" minutes="27.6" def_rebounds="1.43" free_throws_made="1.37" field_goals_made="4.26" steals="1.06" three_points_att="6.54"/>
+        </overall>
+      </player>
+      <player id="8b383075-2109-4997-969e-39ec207f9813" full_name="Jarred Guest" first_name="Jarred" last_name="Guest" position="F" primary_position="NA" jersey_number="23">
+        <overall>
+          <total games_played="33" games_started="3" minutes="231.0" field_goals_made="21" field_goals_att="45" three_points_made="0" three_points_att="0" blocked_att="1" free_throws_made="5" free_throws_att="11" offensive_rebounds="25" defensive_rebounds="26" assists="2" turnovers="11" steals="15" blocks="3" personal_fouls="37" tech_fouls="0" points="47" flagrant_fouls="0" free_throws_pct="0.455" two_points_pct="0.467" three_points_pct="0" field_goals_pct="0.467" rebounds="51" assists_turnover_ratio="0.18" two_points_made="21" two_points_att="45"/>
+          <average points="1.4" blocked_att="0.03" turnovers="0.33" free_throws_att="0.33" field_goals_att="1.36" off_rebounds="0.76" two_points_att="1.36" assists="0.1" blocks="0.09" personal_fouls="1.12" two_points_made="0.64" flagrant_fouls="0.0" rebounds="1.55" three_points_made="0.0" minutes="7.0" def_rebounds="0.79" free_throws_made="0.15" field_goals_made="0.64" steals="0.45" three_points_att="0.0"/>
+        </overall>
+      </player>
+      <player id="7cddbe9e-03b8-4ebf-8dd0-9bba23e20765" full_name="Mo Alie-Cox" first_name="Mo" last_name="Alie-Cox" position="F" primary_position="NA" jersey_number="12">
+        <overall>
+          <total games_played="35" games_started="35" minutes="915.0" field_goals_made="98" field_goals_att="166" three_points_made="0" three_points_att="0" blocked_att="14" free_throws_made="63" free_throws_att="104" offensive_rebounds="108" defensive_rebounds="90" assists="26" turnovers="38" steals="23" blocks="68" personal_fouls="72" tech_fouls="0" points="259" flagrant_fouls="0" free_throws_pct="0.606" two_points_pct="0.59" three_points_pct="0" field_goals_pct="0.59" rebounds="198" assists_turnover_ratio="0.68" two_points_made="98" two_points_att="166"/>
+          <average points="7.4" blocked_att="0.4" turnovers="1.09" free_throws_att="2.97" field_goals_att="4.74" off_rebounds="3.09" two_points_att="4.74" assists="0.7" blocks="1.94" personal_fouls="2.06" two_points_made="2.8" flagrant_fouls="0.0" rebounds="5.66" three_points_made="0.0" minutes="26.1" def_rebounds="2.57" free_throws_made="1.8" field_goals_made="2.8" steals="0.66" three_points_att="0.0"/>
+        </overall>
+      </player>
+      <player id="cc869438-bbbe-4b4b-ab52-adfcfa6a4db7" full_name="Doug Brooks" first_name="Doug" last_name="Brooks" position="G" primary_position="NA" jersey_number="5">
+        <overall>
+          <total games_played="32" games_started="6" minutes="474.0" field_goals_made="56" field_goals_att="136" three_points_made="27" three_points_att="69" blocked_att="7" free_throws_made="18" free_throws_att="29" offensive_rebounds="9" defensive_rebounds="55" assists="20" turnovers="27" steals="38" blocks="3" personal_fouls="72" tech_fouls="0" points="157" flagrant_fouls="0" free_throws_pct="0.621" two_points_pct="0.433" three_points_pct="0.391" field_goals_pct="0.412" rebounds="64" assists_turnover_ratio="0.74" two_points_made="29" two_points_att="67"/>
+          <average points="4.9" blocked_att="0.22" turnovers="0.84" free_throws_att="0.91" field_goals_att="4.25" off_rebounds="0.28" two_points_att="2.09" assists="0.6" blocks="0.09" personal_fouls="2.25" two_points_made="0.91" flagrant_fouls="0.0" rebounds="2.0" three_points_made="0.84" minutes="14.8" def_rebounds="1.72" free_throws_made="0.56" field_goals_made="1.75" steals="1.19" three_points_att="2.16"/>
+        </overall>
+      </player>
+      <player id="5c253248-42bd-49ba-878c-450a7b29243d" full_name="Treveon Graham" first_name="Treveon" last_name="Graham" position="G-F" primary_position="NA" jersey_number="21">
+        <overall>
+          <total games_played="32" games_started="32" minutes="928.0" field_goals_made="169" field_goals_att="390" three_points_made="62" three_points_att="163" blocked_att="29" free_throws_made="123" free_throws_att="179" offensive_rebounds="70" defensive_rebounds="155" assists="50" turnovers="38" steals="20" blocks="9" personal_fouls="65" tech_fouls="0" points="523" flagrant_fouls="0" free_throws_pct="0.687" two_points_pct="0.471" three_points_pct="0.38" field_goals_pct="0.433" rebounds="225" assists_turnover_ratio="1.32" two_points_made="107" two_points_att="227"/>
+          <average points="16.3" blocked_att="0.91" turnovers="1.19" free_throws_att="5.59" field_goals_att="12.19" off_rebounds="2.19" two_points_att="7.09" assists="1.6" blocks="0.28" personal_fouls="2.03" two_points_made="3.34" flagrant_fouls="0.0" rebounds="7.03" three_points_made="1.94" minutes="29.0" def_rebounds="4.84" free_throws_made="3.84" field_goals_made="5.28" steals="0.63" three_points_att="5.09"/>
+        </overall>
+      </player>
+      <player id="20ba9332-8c0a-4aa5-88e9-bd128bc8a8bd" full_name="Justin Tillman" first_name="Justin" last_name="Tillman" position="F" primary_position="NA" jersey_number="4">
+        <overall>
+          <total games_played="34" games_started="1" minutes="428.0" field_goals_made="56" field_goals_att="103" three_points_made="0" three_points_att="1" blocked_att="14" free_throws_made="15" free_throws_att="31" offensive_rebounds="38" defensive_rebounds="50" assists="2" turnovers="14" steals="12" blocks="34" personal_fouls="57" tech_fouls="0" points="127" flagrant_fouls="0" free_throws_pct="0.484" two_points_pct="0.549" three_points_pct="0.0" field_goals_pct="0.544" rebounds="88" assists_turnover_ratio="0.14" two_points_made="56" two_points_att="102"/>
+          <average points="3.7" blocked_att="0.41" turnovers="0.41" free_throws_att="0.91" field_goals_att="3.03" off_rebounds="1.12" two_points_att="3.0" assists="0.1" blocks="1.0" personal_fouls="1.68" two_points_made="1.65" flagrant_fouls="0.0" rebounds="2.59" three_points_made="0.0" minutes="12.6" def_rebounds="1.47" free_throws_made="0.44" field_goals_made="1.65" steals="0.35" three_points_att="0.03"/>
+        </overall>
+      </player>
+      <player id="b90176bc-63b9-49ad-b287-9ca61302d110" full_name="Antravious Simmons" first_name="Antravious" last_name="Simmons" position="F" primary_position="NA" jersey_number="25">
+        <overall>
+          <total games_played="3" games_started="0" minutes="9.0" field_goals_made="1" field_goals_att="1" three_points_made="0" three_points_att="0" blocked_att="0" free_throws_made="0" free_throws_att="0" offensive_rebounds="0" defensive_rebounds="2" assists="0" turnovers="0" steals="0" blocks="0" personal_fouls="2" tech_fouls="0" points="2" flagrant_fouls="0" free_throws_pct="0" two_points_pct="1.0" three_points_pct="0" field_goals_pct="1.0" rebounds="2" assists_turnover_ratio="0" two_points_made="1" two_points_att="1"/>
+          <average points="0.7" blocked_att="0.0" turnovers="0.0" free_throws_att="0.0" field_goals_att="0.33" off_rebounds="0.0" two_points_att="0.33" assists="0.0" blocks="0.0" personal_fouls="0.67" two_points_made="0.33" flagrant_fouls="0.0" rebounds="0.67" three_points_made="0.0" minutes="3.0" def_rebounds="0.67" free_throws_made="0.0" field_goals_made="0.33" steals="0.0" three_points_att="0.0"/>
+        </overall>
+      </player>
+      <player id="7b4d44bc-9695-4a8f-989d-c29c85c31997" full_name="Briante Weber" first_name="Briante" last_name="Weber" position="G" primary_position="NA" jersey_number="2">
+        <overall>
+          <total games_played="20" games_started="19" minutes="530.0" field_goals_made="55" field_goals_att="137" three_points_made="12" three_points_att="29" blocked_att="7" free_throws_made="40" free_throws_att="54" offensive_rebounds="14" defensive_rebounds="59" assists="85" turnovers="34" steals="78" blocks="4" personal_fouls="39" tech_fouls="0" points="162" flagrant_fouls="0" free_throws_pct="0.741" two_points_pct="0.398" three_points_pct="0.414" field_goals_pct="0.401" rebounds="73" assists_turnover_ratio="2.5" two_points_made="43" two_points_att="108"/>
+          <average points="8.1" blocked_att="0.35" turnovers="1.7" free_throws_att="2.7" field_goals_att="6.85" off_rebounds="0.7" two_points_att="5.4" assists="4.3" blocks="0.2" personal_fouls="1.95" two_points_made="2.15" flagrant_fouls="0.0" rebounds="3.65" three_points_made="0.6" minutes="26.5" def_rebounds="2.95" free_throws_made="2.0" field_goals_made="2.75" steals="3.9" three_points_att="1.45"/>
+        </overall>
+      </player>
+      <player id="858d4949-494f-4779-b8a3-6eadb1c8bd3d" full_name="Jordan Burgess" first_name="Jordan" last_name="Burgess" position="G" primary_position="NA" jersey_number="20">
+        <overall>
+          <total games_played="34" games_started="29" minutes="753.0" field_goals_made="59" field_goals_att="157" three_points_made="24" three_points_att="88" blocked_att="6" free_throws_made="35" free_throws_att="65" offensive_rebounds="37" defensive_rebounds="110" assists="27" turnovers="27" steals="20" blocks="15" personal_fouls="61" tech_fouls="0" points="177" flagrant_fouls="0" free_throws_pct="0.538" two_points_pct="0.507" three_points_pct="0.273" field_goals_pct="0.376" rebounds="147" assists_turnover_ratio="1.0" two_points_made="35" two_points_att="69"/>
+          <average points="5.2" blocked_att="0.18" turnovers="0.79" free_throws_att="1.91" field_goals_att="4.62" off_rebounds="1.09" two_points_att="2.03" assists="0.8" blocks="0.44" personal_fouls="1.79" two_points_made="1.03" flagrant_fouls="0.0" rebounds="4.32" three_points_made="0.71" minutes="22.1" def_rebounds="3.24" free_throws_made="1.03" field_goals_made="1.74" steals="0.59" three_points_att="2.59"/>
+        </overall>
+      </player>
+      <player id="ada0c5ad-e416-4d00-9204-741d18d34eff" full_name="Michael Gilmore" first_name="Michael" last_name="Gilmore" position="F" primary_position="NA" jersey_number="11">
+        <overall>
+          <total games_played="25" games_started="0" minutes="157.0" field_goals_made="21" field_goals_att="43" three_points_made="5" three_points_att="17" blocked_att="1" free_throws_made="4" free_throws_att="16" offensive_rebounds="11" defensive_rebounds="28" assists="4" turnovers="4" steals="5" blocks="6" personal_fouls="31" tech_fouls="0" points="51" flagrant_fouls="0" free_throws_pct="0.25" two_points_pct="0.615" three_points_pct="0.294" field_goals_pct="0.488" rebounds="39" assists_turnover_ratio="1.0" two_points_made="16" two_points_att="26"/>
+          <average points="2.0" blocked_att="0.04" turnovers="0.16" free_throws_att="0.64" field_goals_att="1.72" off_rebounds="0.44" two_points_att="1.04" assists="0.2" blocks="0.24" personal_fouls="1.24" two_points_made="0.64" flagrant_fouls="0.0" rebounds="1.56" three_points_made="0.2" minutes="6.3" def_rebounds="1.12" free_throws_made="0.16" field_goals_made="0.84" steals="0.2" three_points_att="0.68"/>
+        </overall>
+      </player>
+      <player id="43571412-98e3-46ad-b5f0-82af3c4a8ffa" full_name="Torey Burston" first_name="Torey" last_name="Burston" position="G" primary_position="NA" jersey_number="14">
+        <overall>
+          <total games_played="14" games_started="0" minutes="35.0" field_goals_made="1" field_goals_att="5" three_points_made="1" three_points_att="4" blocked_att="0" free_throws_made="4" free_throws_att="6" offensive_rebounds="0" defensive_rebounds="4" assists="6" turnovers="0" steals="3" blocks="0" personal_fouls="3" tech_fouls="0" points="7" flagrant_fouls="0" free_throws_pct="0.667" two_points_pct="0.0" three_points_pct="0.25" field_goals_pct="0.2" rebounds="4" assists_turnover_ratio="0" two_points_made="0" two_points_att="1"/>
+          <average points="0.5" blocked_att="0.0" turnovers="0.0" free_throws_att="0.43" field_goals_att="0.36" off_rebounds="0.0" two_points_att="0.07" assists="0.4" blocks="0.0" personal_fouls="0.21" two_points_made="0.0" flagrant_fouls="0.0" rebounds="0.29" three_points_made="0.07" minutes="2.5" def_rebounds="0.29" free_throws_made="0.29" field_goals_made="0.07" steals="0.21" three_points_att="0.29"/>
+        </overall>
+      </player>
+    </player_records>
+  </team>
+</season>
+<!-- Generation ended @ 2015-03-16 18:15:33 +0000 -->
